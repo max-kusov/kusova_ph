@@ -1,0 +1,46 @@
+.header {
+    background-color: rgba(0,0,0,0.8);
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 3px 7%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    &__logo {
+        margin-right: auto;
+    }
+    &__links li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    &__links li a{
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(204, 203, 203);
+        transition: all 0.5s;
+        text-transform: uppercase;
+    }
+    &__links li a:hover{
+        color: #fff;
+    }
+    &__btn {
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 9px 15px;
+        color: rgb(27, 27, 27);
+        font-weight: 700;
+        transition: all 0.5s;
+    }
+    &__btn:hover {
+        color: rgb(27, 27, 27);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+    }
+    &__burger {
+        display: none;
+    }
+
+}
