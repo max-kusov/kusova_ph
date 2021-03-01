@@ -1,0 +1,45 @@
+.footer {
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Montserrat', sans-serif;
+    &__phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        height: 70px;
+    }
+    &__phone a{
+        text-decoration: none;
+        padding: 0 10px;
+        font-size: 18px;
+        color: #fff;
+        transition: all .5s;
+    }
+    &__phone a:hover {
+        transform: scale(1.1);
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        height: 50px;
+    }
+    &__row a {
+        padding: 0 5px;
+        font-size: 30px;
+        color: #fff;
+        transition: all .5s;
+    }
+    &__row a:hover {
+        transform: scale(1.5);
+    }
+    &__place {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 12px;
+    }
+}

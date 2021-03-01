@@ -9,8 +9,40 @@ html,body{
     height: 100%;
 }
 
+a:focus {
+    outline: none !important;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+        width: 100%;
+    }
+}
+.white{
+    background-color: #fff;
+    height: 600px;
+    &__wrap{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    & p{
+        width: 50%;
+    }
+    & img{
+        width: 50%;
+        right: 0;
+    }
+}
+
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/burger";
 @import "blocks/media";
+@import "blocks/slider";
+@import "blocks/footer";
+
+
 
