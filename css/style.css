@@ -188,7 +188,11 @@ a:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
-.footer__phone {
+.footer__box {
+  height: 170px;
+}
+
+.footer__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,11 +202,10 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
-  height: 70px;
+  padding: 25px 0px 15px 0px;
 }
 
-.footer__phone a {
+.footer__contacts a {
   text-decoration: none;
   padding: 0 10px;
   font-size: 18px;
@@ -211,12 +214,12 @@ a:focus {
   transition: all .5s;
 }
 
-.footer__phone a:hover {
+.footer__contacts a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.footer__row {
+.footer__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,10 +230,10 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  height: 50px;
+  padding: 20px 0;
 }
 
-.footer__row a {
+.footer__social a {
   padding: 0 5px;
   font-size: 30px;
   color: #fff;
@@ -238,13 +241,12 @@ a:focus {
   transition: all .5s;
 }
 
-.footer__row a:hover {
+.footer__social a:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
 
-.footer__place {
-  height: 50px;
+.footer__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,4 +258,30 @@ a:focus {
           justify-content: center;
   color: #fff;
   font-size: 12px;
+  padding-top: 10px;
+}
+
+@media (max-width: 610px) {
+  .footer__box {
+    height: 200px;
+  }
+  .footer__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 15px 0 0 0;
+  }
+  .footer__contacts a {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .footer__social {
+    font-size: 35px;
+    padding: 35px 0 35px 0;
+  }
+  .footer__title {
+    padding: 0 0 10px 0;
+    font-size: 8px;
+  }
 }

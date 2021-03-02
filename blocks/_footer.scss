@@ -1,45 +1,71 @@
 .footer {
     background-color: rgba(0,0,0,0.8);
     font-family: 'Montserrat', sans-serif;
-    &__phone {
+    &__box {
+        height: 170px;
+    }
+    &__contacts {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: auto;
-        height: 70px;
+        padding: 25px 0px 15px 0px;
     }
-    &__phone a{
+
+    &__contacts a{
         text-decoration: none;
         padding: 0 10px;
         font-size: 18px;
         color: #fff;
         transition: all .5s;
     }
-    &__phone a:hover {
+    &__contacts a:hover {
         transform: scale(1.1);
     }
-    &__row {
+    &__social {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: auto;
-        height: 50px;
+        padding: 20px 0;
     }
-    &__row a {
+    &__social a {
         padding: 0 5px;
         font-size: 30px;
         color: #fff;
         transition: all .5s;
     }
-    &__row a:hover {
+    &__social a:hover {
         transform: scale(1.5);
     }
-    &__place {
-        height: 50px;
+    &__title {
         display: flex;
         align-items: center;
         justify-content: center;
         color: #fff;
         font-size: 12px;
+        padding-top: 10px;
+    }
+}
+@media (max-width:610px){
+    .footer{ 
+        &__box {
+            height: 200px;
+        }
+        &__contacts {
+            flex-direction: column;
+            padding: 15px 0 0 0;
+        }
+        &__contacts a{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        &__social {
+            font-size: 35px;
+            padding: 35px 0 35px 0;
+        }
+        &__title {
+            padding: 0 0 10px 0;
+            font-size: 8px;
+        }
     }
 }
