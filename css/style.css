@@ -208,7 +208,7 @@ a:focus {
   z-index: 3;
   position: absolute;
   left: 50px;
-  bottom: 200px;
+  bottom: 100px;
   color: #fff;
   font-size: 40px;
   font-weight: 600;
@@ -227,14 +227,14 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 70px;
+  bottom: 30px;
 }
 
 .slider__btn {
   z-index: 3;
   height: 15px;
   width: 15px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   margin-left: 15px;
   cursor: pointer;
@@ -249,6 +249,38 @@ a:focus {
 
 .active {
   z-index: 2;
+}
+
+.slider__arrow {
+  z-index: 3;
+  font-size: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.fa-chevron-left {
+  position: absolute;
+  left: 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa-chevron-left:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.fa-chevron-right {
+  position: absolute;
+  right: 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa-chevron-right:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 0.9;
 }
 
 .footer {

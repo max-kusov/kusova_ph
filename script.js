@@ -4,7 +4,8 @@ const burger = document.querySelector(".burger"),
     linksBurger = document.querySelectorAll(".burger a"),
     mediaQuery = window.matchMedia('(max-width: 768px)'),
     sliderBtns = document.querySelectorAll(".slider__btn"),
-    pages = document.querySelectorAll(".slider__page");
+    pages = document.querySelectorAll(".slider__page"),
+    arrows = document.querySelectorAll(".slider__arrow");
 
 let counter = 0;
 
@@ -58,8 +59,8 @@ function movePage(item) {
 
 sliderBtns.forEach((btn, i) => {
     btn.addEventListener("click", () => {
-        console.log(i);
-        counter = i;
-        movePage(i)
+        movePage(i);
     })
 })
+
+
