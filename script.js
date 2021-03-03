@@ -2,8 +2,11 @@ const burger = document.querySelector(".burger"),
     burgerIcon = document.querySelector(".header__burger"),
     exitBurger = document.querySelector(".burger__exit"),
     linksBurger = document.querySelectorAll(".burger a"),
-    mediaQuery = window.matchMedia('(max-width: 768px)');
+    mediaQuery = window.matchMedia('(max-width: 768px)'),
+    sliderBtns = document.querySelectorAll(".slider__btn"),
+    pages = document.querySelectorAll(".slider__page");
 
+let counter = 0;
 
 function handleTabletChange(e) {
     if (e.matches) {
@@ -39,5 +42,24 @@ function manualNav(item) {
 linksBurger.forEach((link, i) => {
     link.addEventListener("click", () => {
         manualNav(i);
+    })
+})
+
+function movePage(item) {
+    pages.forEach(page => {
+        page.classList.remove("active");
+    })
+    sliderBtns.forEach(btn => {
+        btn.classList.remove("active");
+    })
+    pages[item].classList.add("active");
+    sliderBtns[item].classList.add("active");
+}
+
+sliderBtns.forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+        console.log(i);
+        counter = i;
+        movePage(i)
     })
 })

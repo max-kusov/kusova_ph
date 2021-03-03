@@ -12,17 +12,11 @@ html,body{
 a:focus {
     outline: none !important;
 }
-.img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    & img {
-        width: 100%;
-    }
-}
+
+// временный блок
 .white{
     background-color: #fff;
-    height: 600px;
+    height: 1600px;
     &__wrap{
         padding-top: 100px;
         display: flex;

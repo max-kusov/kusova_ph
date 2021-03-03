@@ -1,5 +1,8 @@
 .header {
     background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 
     &__row {
         display: flex;
@@ -13,15 +16,19 @@
     &__links li {
         display: inline-block;
         margin: 0 20px;
+        transition: all 0.5s;
+    }
+    &__links li:hover{
+        transform: scale(1.2);
     }
     &__links li a{
         font-size: 14px;
         text-decoration: none;
+        text-transform: uppercase;
         color: rgb(204, 203, 203);
         transition: all 0.5s;
-        text-transform: uppercase;
     }
-    &__links li a:hover{
+    &__links li a:hover {
         color: #fff;
     }
     &__btn {
@@ -35,6 +42,7 @@
         transition: all 0.5s;
     }
     &__btn:hover {
+        transform: scale(1.1);
         color: rgb(27, 27, 27);
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     }

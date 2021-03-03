@@ -1,0 +1,56 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    &__page {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+    }
+    &__page img {
+        width: 100%;
+        max-height: 850px;
+    }
+    &__text {
+        z-index: 3;
+
+        position: absolute;
+        left: 50px;
+        bottom: 200px;
+
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 70px;
+    }
+    &__btn {
+        z-index: 3;
+        height: 15px;
+        width: 15px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 50%;
+        margin-left: 15px;
+        cursor: pointer;
+        transition: all .5s;
+
+    }
+    &__btn:hover {
+        transform: scale(1.4);
+    }
+}
+.active {
+    z-index: 2;
+}
