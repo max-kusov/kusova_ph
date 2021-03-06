@@ -16,17 +16,16 @@
     &__links li {
         display: inline-block;
         margin: 0 20px;
-        transition: all 0.5s;
+        transition: all 0.3s;
     }
     &__links li:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     &__links li a{
         font-size: 14px;
         text-decoration: none;
         text-transform: uppercase;
         color: rgb(204, 203, 203);
-        transition: all 0.5s;
     }
     &__links li a:hover {
         color: #fff;
@@ -39,12 +38,11 @@
         padding: 9px 15px;
         color: rgb(27, 27, 27);
         font-weight: 700;
-        transition: all 0.5s;
+        transition: all 0.3s;
     }
     &__btn:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         color: rgb(27, 27, 27);
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     }
     &__burger {
         display: none;

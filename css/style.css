@@ -14,32 +14,8 @@ a:focus {
   outline: none !important;
 }
 
-.white {
-  background-color: #fff;
-  height: 1600px;
-}
-
-.white__wrap {
-  padding-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.white p {
-  width: 50%;
-}
-
-.white img {
-  width: 50%;
-  right: 0;
-}
-
 .container {
-  max-width: 1270px;
+  max-width: 1170px;
   margin: 0px auto;
   padding: 0 15px;
 }
@@ -71,13 +47,13 @@ a:focus {
 .header__links li {
   display: inline-block;
   margin: 0 20px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .header__links li:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .header__links li a {
@@ -85,8 +61,6 @@ a:focus {
   text-decoration: none;
   text-transform: uppercase;
   color: #cccbcb;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .header__links li a:hover {
@@ -101,16 +75,14 @@ a:focus {
   padding: 9px 15px;
   color: #1b1b1b;
   font-weight: 700;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .header__btn:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   color: #1b1b1b;
-  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
-          box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
 }
 
 .header__burger {
@@ -171,6 +143,9 @@ a:focus {
   .container {
     max-width: none;
   }
+  .header__logo img {
+    max-width: 70%;
+  }
   .header__menu {
     display: none;
   }
@@ -201,7 +176,7 @@ a:focus {
 
 .slider__page img {
   width: 100%;
-  max-height: 850px;
+  height: 100vh;
 }
 
 .slider__text {
@@ -238,8 +213,8 @@ a:focus {
   border-radius: 50%;
   margin-left: 15px;
   cursor: pointer;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .slider__btn:hover {
@@ -280,7 +255,6 @@ a:focus {
 .fa-chevron-right:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
-  opacity: 0.9;
 }
 
 .footer {
@@ -310,8 +284,8 @@ a:focus {
   padding: 0 10px;
   font-size: 18px;
   color: #fff;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .footer__contacts a:hover {
@@ -337,8 +311,8 @@ a:focus {
   padding: 0 5px;
   font-size: 30px;
   color: #fff;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .footer__social a:hover {
@@ -384,4 +358,80 @@ a:focus {
     padding: 0 0 10px 0;
     font-size: 8px;
   }
+}
+
+.title__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 150px 60px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 992px) {
+  .title .title__text {
+    font-size: 22px;
+    padding: 120px 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title .title__text {
+    font-size: 12px;
+    padding: 90px 20px;
+  }
+}
+
+.gallery__table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 24.6% 24.6% 24.6% 24.6%;
+      grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
+  -ms-grid-rows: (450px)[3];
+      grid-template-rows: repeat(3, 450px);
+  grid-gap: 5px;
+  height: 1600px;
+}
+
+@media (max-width: 992px) {
+  .gallery .gallery__table {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 49.7% 49.7%;
+        grid-template-columns: 49.7% 49.7%;
+    -ms-grid-rows: (450px)[6];
+        grid-template-rows: repeat(6, 450px);
+    grid-gap: 5px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery .gallery__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
 }

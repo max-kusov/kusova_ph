@@ -1,6 +1,7 @@
 .footer {
     background-color: rgba(0,0,0,0.8);
     font-family: 'Montserrat', sans-serif;
+    
     &__box {
         height: 170px;
     }
@@ -16,7 +17,7 @@
         padding: 0 10px;
         font-size: 18px;
         color: #fff;
-        transition: all .5s;
+        transition: all .3s;
     }
     &__contacts a:hover {
         transform: scale(1.1);
@@ -32,7 +33,7 @@
         padding: 0 5px;
         font-size: 30px;
         color: #fff;
-        transition: all .5s;
+        transition: all .3s;
     }
     &__social a:hover {
         transform: scale(1.5);
