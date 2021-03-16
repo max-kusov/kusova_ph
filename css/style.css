@@ -541,6 +541,9 @@ a:focus {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .portfolio .portfolio__item img {
+    max-height: 350px;
+  }
   .portfolio .portfolio__info {
     margin: 15px 0;
     font-size: 20px;
