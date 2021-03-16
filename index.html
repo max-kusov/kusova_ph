@@ -27,7 +27,7 @@
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </nav>
-                <a href="#" class="header__btn">Записаться</a>
+                <a href="#" data-modal class="header__btn">Записаться</a>
                 <img class="header__burger" src="img/menu.svg" alt="">
                 <img class="burger__exit" src="img/clear.svg" alt="exit">
             </div>
@@ -43,19 +43,19 @@
 
     <div class="slider">
         <div class="slider__page">
-            <div class="page--four"></div>
+            <div class="slider__img--four"></div>
             <p class="slider__text">мария и александр</p>
         </div>
         <div class="slider__page">
-            <div class="page--three"></div>
+            <div class="slider__img--three"></div>
             <p class="slider__text">мария и александр</p>
         </div>
         <div class="slider__page">
-            <div class="page--two"></div>
+            <div class="slider__img--two"></div>
             <p class="slider__text">мария и александр</p>
         </div>
         <div class="slider__page">
-            <div class="page"></div>
+            <div class="slider__img"></div>
             <p class="slider__text">мария и александр</p>
         </div>
         <div class="slider__arrow">
@@ -137,6 +137,19 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal hide">
+        <div class="modal__content">
+            <i class="fas fa-times"></i>
+            <form action="#">
+                <div class="modal__title">Запишись на сьемку</div>
+                <input type="text" class="modal__input" placeholder="Ваше Имя">
+                <input type="phone" class="modal__input" placeholder="Номер вашего телефона">
+                <a href="#" class="modal__btn">Записаться</a>
+            </form>
+        </div>
+    </div>
 
 </body>
 <script src="script.js" defer></script>

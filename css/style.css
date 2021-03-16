@@ -14,8 +14,25 @@ a:focus {
   outline: none !important;
 }
 
-.box {
+.page {
   height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .container {
@@ -221,7 +238,7 @@ a:focus {
           transform: scale(1.4);
 }
 
-.page {
+.slider__img {
   background-image: url(../img/5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +246,7 @@ a:focus {
   height: 100vh;
 }
 
-.page--two {
+.slider__img--two {
   background-image: url(../img/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,7 +254,7 @@ a:focus {
   height: 100vh;
 }
 
-.page--three {
+.slider__img--three {
   background-image: url(../img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,7 +262,7 @@ a:focus {
   height: 100vh;
 }
 
-.page--four {
+.slider__img--four {
   background-image: url(../img/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -290,16 +307,16 @@ a:focus {
 }
 
 @media (max-width: 650px) {
-  .page {
+  .slider__img {
     background-image: url(../img/gallery/6.jpg);
   }
-  .page--two {
+  .slider__img--two {
     background-image: url(../img/gallery/8.jpg);
   }
-  .page--three {
+  .slider__img--three {
     background-image: url(../img/gallery/2.jpg);
   }
-  .page--four {
+  .slider__img--four {
     background-image: url(../img/gallery/1.jpg);
   }
   .slider__text {
@@ -488,4 +505,131 @@ a:focus {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contacts__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  width: 300px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin: 0 20px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.contacts__page:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.contacts__page img {
+  min-height: 90%;
+  width: 100%;
+}
+
+.contacts__info {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  text-align: center;
+}
+
+.modal {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.modal__content {
+  margin: 20vh auto;
+  max-width: 500px;
+  height: 55vh;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.modal__title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.modal__input {
+  display: block;
+  margin: 40px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+.modal__btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 12px 40px;
+  color: #fffefe;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: 60px;
+  right: 30%;
+}
+
+.modal__btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.fa-times {
+  font-size: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }

@@ -14,8 +14,18 @@ a:focus {
 }
 
 // временный блок
-.box {
+.page {
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
 }
 
 
@@ -27,6 +37,10 @@ a:focus {
 @import "blocks/footer";
 @import "blocks/title";
 @import "blocks/gallery";
+@import "blocks/portfolio";
+@import "blocks/contacts";
+@import "blocks/modal";
+
 
 
 

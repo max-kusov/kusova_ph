@@ -47,7 +47,7 @@
         transform: scale(1.4);
     }
 }
-.page {
+.slider__img {
     background-image: url(../img/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +106,7 @@
 }
 
 @media(max-width:650px){
-    .page {
+    .slider__img {
         background-image: url(../img/gallery/6.jpg);
         &--two {
             background-image: url(../img/gallery/8.jpg);
