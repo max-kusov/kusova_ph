@@ -540,6 +540,7 @@ a:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-top: 50px;
   }
   .portfolio .portfolio__item img {
     max-height: 350px;
