@@ -507,6 +507,87 @@ a:focus {
   cursor: pointer;
 }
 
+.portfolio__table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 24.6% 24.6% 24.6% 24.6%;
+      grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
+  -ms-grid-rows: (350px)[3];
+      grid-template-rows: repeat(3, 350px);
+  grid-gap: 10px;
+  height: 100%;
+  padding: 10% 0 15% 0;
+}
+
+@media (max-width: 992px) {
+  .portfolio .portfolio__table {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 49% 49%;
+        grid-template-columns: 49% 49%;
+    -ms-grid-rows: (350px)[6];
+        grid-template-rows: repeat(6, 350px);
+    grid-gap: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio .portfolio__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio .portfolio__info {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+}
+
+.portfolio__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.portfolio__item:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.portfolio__item img {
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio__info {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,6 +627,8 @@ a:focus {
 .contacts__page img {
   min-height: 90%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contacts__info {

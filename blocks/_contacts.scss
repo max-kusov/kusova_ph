@@ -21,6 +21,7 @@
     &__page img {
         min-height: 90%;
         width: 100%;
+        object-fit: cover;
     }
     &__info {
         font-size: 20px;
