@@ -542,6 +542,9 @@ a:focus {
             flex-direction: column;
     padding-top: 50px;
   }
+  .portfolio .portfolio__item {
+    margin: 15px 0;
+  }
   .portfolio .portfolio__item img {
     max-height: 350px;
   }
@@ -593,9 +596,17 @@ a:focus {
 }
 
 .contacts {
+  height: 100%;
+}
+
+.contacts__wrap {
+  padding-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -644,6 +655,27 @@ a:focus {
   text-align: center;
 }
 
+@media (max-width: 550px) {
+  .contacts {
+    min-height: 1700px;
+  }
+  .contacts__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contacts__page {
+    margin: 10px 0;
+  }
+}
+
 .modal {
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.5);
@@ -667,16 +699,20 @@ a:focus {
   position: relative;
 }
 
+.modal__content form {
+  padding: 5% 0;
+}
+
 .modal__title {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 40px 0;
+  margin: 20px 0 0;
 }
 
 .modal__input {
   display: block;
-  margin: 40px auto;
+  margin: 30px auto;
   border-radius: 5px;
   -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -692,14 +728,11 @@ a:focus {
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 20px;
-  padding: 12px 40px;
+  padding: 12px 80px;
   color: #fffefe;
   font-weight: 700;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  position: absolute;
-  bottom: 60px;
-  right: 30%;
 }
 
 .modal__btn:hover {
@@ -719,4 +752,27 @@ a:focus {
 .fa-times:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media (max-width: 550px) {
+  .modal__content {
+    padding: 20px;
+    width: 90%;
+  }
+  .modal__title {
+    margin: 25px auto;
+    font-size: 20px;
+  }
+  .modal__input {
+    width: 70%;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0 auto 20px;
+  }
+  .modal__btn {
+    padding: 10px 40px;
+  }
+  .modal form {
+    margin-bottom: 10%;
+  }
 }

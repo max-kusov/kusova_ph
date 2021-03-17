@@ -23,19 +23,19 @@ document.addEventListener("DOMContentLoaded", () => {
         'img/contacts/Jj3CL_GHHao.jpg',
         'Instagram',
         'Instagram',
-        '.contacts'
+        '.contacts__wrap'
     ).render();
     new ContactsCards(
         'img/contacts/uLCLuP_Nl4s.jpg',
         'VK',
         'vk',
-        '.contacts'
+        '.contacts__wrap'
     ).render();
     new ContactsCards(
         'img/contacts/oPzdffDfFbw.jpg',
         'Phone',
         'Phone',
-        '.contacts'
+        '.contacts__wrap'
     ).render();
 
 });

@@ -19,15 +19,18 @@
         text-align: center;
         position: relative;
     }
+    &__content form {
+        padding: 5% 0;
+    }
     &__title {
         font-size: 24px;
         font-weight: 600;
         text-transform: uppercase;
-        margin: 40px 0;
+        margin: 20px 0 0;
     }
     &__input {
         display: block;
-        margin: 40px auto;
+        margin: 30px auto;
         border-radius: 5px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, .5) ;
         border: none;
@@ -41,13 +44,10 @@
         text-decoration: none;
         background-color: rgba(0, 0, 0, .8);
         border-radius: 20px;
-        padding: 12px 40px;
+        padding: 12px 80px;
         color: rgb(255, 254, 254);
         font-weight: 700;
         transition: all 0.3s;
-        position: absolute;
-        bottom: 60px;
-        right: 30%;
     }
     &__btn:hover {
         background-color: rgba(0, 0, 0, .9);
@@ -63,4 +63,27 @@
 }
 .fa-times:hover {
     transform: scale(1.2);
+}
+
+@media (max-width:550px) {
+    .modal__content {
+        padding: 20px;
+        width: 90%;
+    }
+    .modal__title {
+        margin: 25px auto;
+        font-size: 20px;
+    }
+    .modal__input {
+        width: 70%;
+        font-size: 16px;
+        padding: 0 10px;
+        margin: 0 auto 20px;
+    }
+    .modal__btn {
+        padding: 10px 40px;
+    }
+    .modal form {
+        margin-bottom: 10%;
+    }
 }

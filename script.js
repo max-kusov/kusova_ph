@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     arrowRight.addEventListener("click", () => {
         pages.forEach((page, i) => {
             page.classList.remove("active");
-            i++;
+            page[i].classList.add("active");
         })
     })
 

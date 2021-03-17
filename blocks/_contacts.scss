@@ -1,7 +1,12 @@
 .contacts {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    &__wrap{
+        padding-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+    }
     &__page {
         display: flex;
         flex-direction: column;
@@ -30,5 +35,19 @@
         color: rgba(0,0,0,0.8);
         margin-top: 15px;
         text-align: center;
+    }
+}
+
+@media (max-width:550px) {
+    .contacts {
+        min-height: 1700px;
+    }
+    .contacts__wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contacts__page {
+        margin: 10px 0;
     }
 }
