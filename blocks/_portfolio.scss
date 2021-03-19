@@ -8,6 +8,11 @@
         height: 100%;
         padding: 10% 0 15% 0;
     }
+    &__table a{
+        text-decoration: none;
+        border: none;
+    }
+
     @media (max-width:992px) {
         .portfolio__table {
             display: grid;

@@ -66,15 +66,30 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 
-    arrowLeft.addEventListener("click", () => {
-        console.log("лево");
-    })
-    arrowRight.addEventListener("click", () => {
-        pages.forEach((page, i) => {
-            page.classList.remove("active");
-            page[i].classList.add("active");
+    // arrows 
+
+    function showSlider() {
+        pages.forEach((page) => {
+            if (!page.classList.contains("active")) {
+                page.classList.add("active");
+            } else {
+                console.log(i)
+            }
+
         })
+
+    }
+
+    arrowLeft.addEventListener("click", () => {
+        showSlider()
+        console.log(item)
     })
+    // arrowRight.addEventListener("click", () => {
+    //     pages.forEach((page, i) => {
+    //         page.classList.remove("active");
+    //         page[i].classList.add("active");
+    //     })
+    // })
 
 
     //////// Modal /////////
