@@ -7,11 +7,15 @@
     &__row {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
         font-family: 'Montserrat', sans-serif;
     }
-    &__logo {
-        margin-right: auto;
+    &__logo h1{
+        color: #fff;
+        font-size: 26px;
+        font-weight: 500;
+        color: rgb(204, 203, 203);
+        margin: 5px 0;
     }
     &__links li {
         display: inline-block;

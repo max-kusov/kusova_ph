@@ -5,17 +5,23 @@
     position: relative;
     height: 100vh;
     background-color: #000;
-    .fa-instagram {
-        margin-right: 50px;
+
+    &__social {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
     }
     &__social a{
         color: #fff;
         font-size: 35px;
         z-index: 1100;
         opacity: .7;
-        position: absolute;
-        bottom: 15px;
-        right: 25px;
+        padding-left: 10px;
+        transition: all .2s ;
+    }
+    &__social a:hover {
+        transform: scale(1.3);
     }
 
     &__page {
@@ -102,5 +108,11 @@
         &--four {
             background-image: url(../img/gallery/6.jpg);
         }
+    }
+    .slider__btn {
+        display: none;
+    }
+    .slider__social {
+        right: auto;
     }
 }

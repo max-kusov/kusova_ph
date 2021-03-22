@@ -67,6 +67,27 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 
+    let i = 0;
+
+    function timer() {
+
+        i++;
+
+        if (i >= pages.length) {
+            return i = -1;
+        }
+
+        pages.forEach(page => {
+            if (page.classList.contains("active")) {
+                page.classList.remove("active");
+            }
+        })
+
+        pages[i].classList.add("active");
+    }
+
+    setInterval(timer, 4000)
+
     //////// Modal /////////
 
     //     const modal = document.querySelector(".modal"),
