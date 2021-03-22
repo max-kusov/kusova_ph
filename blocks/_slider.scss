@@ -4,6 +4,7 @@
     justify-content: center;
     position: relative;
     height: 100vh;
+    background-color: #000;
     .fa-instagram {
         margin-right: 50px;
     }
@@ -21,6 +22,12 @@
         z-index: 1;
         position: absolute;
         width: 100%;
+        clip-path: circle(30% at 0% 50%);
+    }
+    .slider__page.active {
+        clip-path: circle(150% at 0% 50%);
+        transition: 1.5s;
+        transition-property: clip-path;
     }
     &__nav {
         display: flex;
@@ -44,21 +51,13 @@
     }
 }
 .slider__img {
-    background-image: url(../img/5.jpg);
+    background-image: url(../img/2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100vh;
     &--two{
-        background-image: url(../img/4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-    }
-    &--three{
         background-image: url(../img/3.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -66,8 +65,16 @@
         width: 100%;
         height: 100vh;
     }
+    &--three{
+        background-image: url(../img/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
     &--four{
-        background-image: url(../img/2.jpg);
+        background-image: url(../img/5.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -85,15 +92,15 @@
 
 @media(max-width:650px){
     .slider__img {
-        background-image: url(../img/gallery/6.jpg);
+        background-image: url(../img/gallery/1.jpg);
         &--two {
-            background-image: url(../img/gallery/8.jpg);
-        }
-        &--three {
             background-image: url(../img/gallery/2.jpg);
         }
+        &--three {
+            background-image: url(../img/gallery/8.jpg);
+        }
         &--four {
-            background-image: url(../img/gallery/1.jpg);
+            background-image: url(../img/gallery/6.jpg);
         }
     }
 }
