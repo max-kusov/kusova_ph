@@ -51,6 +51,42 @@
         overflow: hidden;
         transition: all .3s;
     }
+    &__img {
+        background-image: url(../img/portfolio/alina_2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .5) ;
+        cursor: pointer;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .lika {
+        background-image: url(../img/contacts/oPzdffDfFbw.jpg);
+    }
+    &__img p {
+        height: 100%;
+        opacity: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        transition: .5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0.4% at 50% 50%);
+    }
+    &__img:hover p {
+        opacity: .7;
+        background: rgba(0, 0, 0, .6);
+        cursor: pointer;
+        clip-path: circle(70.7% at 50% 50%);
+    }
     &__item:hover {
         transform: scale(1.02);
     }

@@ -1,5 +1,5 @@
 .price {
-    height: 1200px;
+    height: 1600px;
     display: block;
     font-family: 'Montserrat', sans-serif;
     
@@ -10,12 +10,19 @@
     }
     &__columns{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 50px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        
     }
     &__section {
+        padding: 20px;
+        margin: 0 20px;
         text-align: center;
+        max-width: 400px;
+
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, .5) ;
+        border-radius: 5px;
     }
     &__section h1 {
         font-weight: 700;
@@ -33,14 +40,53 @@
         margin-bottom: 30px;
     }
     &__section img {
-        width: 50%;
+        width: 100%;
+        border-radius: 3px;
+        opacity: 1;
+        background: #000;
+    }
+    &__img {
+        background-image: url(../img/gallery/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    &__img p {
+        height: 100%;
+        opacity: 0;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        transition: .5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__img:hover p {
+        opacity: .9;
+        background: rgba(0, 0, 0, .6);
+        cursor: pointer;
     }
     &__section ul {
         text-align: left;
         font-size: 14px;
     }
     &__conditions{
-        padding-bottom: 40px;
+        margin: 40px 0;
+    }
+    &__additional {
+        margin: 40px 0;
+    }
+    &__wrapp {
+        padding: 20px;
+        margin: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, .5);
+        border-radius: 5px;
     }
     &__title {
         text-align: center;
