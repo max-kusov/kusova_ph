@@ -13,13 +13,6 @@ a:focus {
     outline: none !important;
 }
 
-// временный блок
-.page {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .preloader {
     display: flex;
@@ -56,13 +49,10 @@ a:focus {
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/burger";
-@import "blocks/media";
 @import "blocks/slider";
 @import "blocks/footer";
-@import "blocks/title";
 @import "blocks/portfolio";
 @import "blocks/contacts";
-@import "blocks/modal";
 @import "blocks/port-galery";
 @import "blocks/price";
 

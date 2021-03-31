@@ -19,42 +19,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_1.jpg',
+        'img/portfolio/alina/1.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_2.jpg',
+        'img/portfolio/alina/2.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_3.jpg',
+        'img/portfolio/alina/3.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_4.jpg',
+        'img/portfolio/alina/4.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_5.jpg',
+        'img/portfolio/alina/5.jpg',
+
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_6.jpg',
+        'img/portfolio/alina/6.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_7.jpg',
+        'img/portfolio/alina/7.jpg',
         'photo'
     ).render();
     new ItemList(
         '.port-gallery__table',
-        'img/portfolio/alina_8.jpg',
+        'img/portfolio/alina/8.jpg',
         'photo'
     ).render();
 

@@ -1,17 +1,17 @@
 .price {
-    height: 1600px;
+    height: 1450px;
     display: block;
     font-family: 'Montserrat', sans-serif;
     
     &__main{
-        padding: 100px 0;
+        padding: 80px 0;
         display: flex;
+        align-items: center;
         flex-direction: column;
     }
     &__columns{
         display: flex;
-        margin: 0 auto;
-        margin-bottom: 100px;
+        margin: 0 auto 80px;
         
     }
     &__section {
@@ -28,58 +28,43 @@
         font-weight: 700;
         text-transform: uppercase;
         font-size: 20px;
-        margin-top: 30px;
-    }
-    &__section h2 {
-        font-weight: 600;
-        font-size: 16px;
-    }
-    &__section h3 {
-        font-weight: 700;
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-    &__section img {
-        width: 100%;
-        border-radius: 3px;
-        opacity: 1;
-        background: #000;
-    }
-    &__img {
-        background-image: url(../img/gallery/1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 450px;
-        width: 300px;
-        margin: 0 auto;
-    }
-    &__img p {
-        height: 100%;
-        opacity: 0;
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-        color: #fff;
-        transition: .5s ease;
+        margin: 20px 0 15px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    &__img:hover p {
-        opacity: .9;
-        background: rgba(0, 0, 0, .6);
-        cursor: pointer;
+    &__section h3 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    &__img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .person {
+        background-image: url(../img/price/price_person.jpg);
+    }
+    .love {
+        background-image: url(../img/price/price_love.jpg);
+    }
+    .small {
+        background-image: url(../img/price/price_small.jpg);
     }
     &__section ul {
         text-align: left;
-        font-size: 14px;
+        font-size: 16px;
     }
     &__conditions{
-        margin: 40px 0;
+        margin: 25px 0;
     }
     &__additional {
-        margin: 40px 0;
+        margin: 25px 0;
     }
     &__wrapp {
         padding: 20px;
@@ -87,6 +72,7 @@
         background-color: #fff;
         box-shadow: 0 4px 15px rgba(0, 0, 0, .5);
         border-radius: 5px;
+        width: calc(100% - 40px);
     }
     &__title {
         text-align: center;
@@ -94,12 +80,63 @@
         font-size: 24px;
         padding-bottom: 20px;
     }
-    &__subtitle {
-        text-align: center;
-        font-weight: 500;
-        font-size: 20px;
-    }
     &__list {
         padding-top: 20px;
+    }
+    &__list li {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    &__additional li {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .price__img {
+        height: 350px;
+    }
+    .price__section {
+        margin: 0 10px;
+        padding: 15px;
+    }
+    .price__wrapp {
+        width: calc(100% - 20px);
+    }
+}
+@media (max-width:850px) {
+    .price {
+        min-height: 2550px;
+    }
+    .price__columns {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto 20px;
+    }
+    .price__section {
+        margin-bottom: 30px;
+    }
+    .price__wrapp {
+        padding: 10px;
+        width: 90%;
+    }
+    .price__list li {
+        font-size: 16px;
+    }
+    .price__additional li {
+        font-size: 16px;
+    }
+
+}
+@media (max-width:450px) {
+    .price {
+        min-height: 2650px;
+    }
+}
+@media (max-width:340px) {
+    .price {
+        min-height: 2800px;
     }
 }

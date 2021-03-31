@@ -4,25 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         burgerIcon = document.querySelector(".header__burger"),
         exitBurger = document.querySelector(".burger__exit"),
         linksBurger = document.querySelectorAll(".burger a"),
-        mediaQuery = window.matchMedia('(max-width: 768px)'),
         sliderBtns = document.querySelectorAll(".slider__btn"),
-        pages = document.querySelectorAll(".slider__page"),
-        arrowLeft = document.querySelector(".fa-chevron-left"),
-        arrowRight = document.querySelector(".fa-chevron-right");
-
-    let counter = 0;
-
-    function handleTabletChange(e) {
-        if (e.matches) {
-
-        } else {
-            burger.style.cssText = "display: none";
-            exitBurger.style.cssText = "display: none";
-
-        }
-    }
-    mediaQuery.addListener(handleTabletChange);
-    handleTabletChange(mediaQuery)
+        pages = document.querySelectorAll(".slider__page");
 
 
     burgerIcon.addEventListener("click", () => {
@@ -88,42 +71,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setInterval(timer, 4000)
 
-    //////// Modal /////////
-
-    //     const modal = document.querySelector(".modal"),
-    //         modalClose = document.querySelector(".fa-times"),
-    //         modalTrigger = document.querySelector("[data-modal]");
-
-    //     function closeModal() {
-    //         modal.classList.remove("show");
-    //         modal.classList.add("hide");
-    //         document.body.style.overflow = "";
-    //     }
-    //     function openModal() {
-    //         modal.classList.add("show");
-    //         modal.classList.remove("hide");
-    //         document.body.style.overflow = "hidden";
-    //     }
-
-    //     modalTrigger.addEventListener("click", openModal);
-
-    //     modalClose.addEventListener("click", closeModal);
-
-    //     modal.addEventListener("click", (e) => {
-    //         if (e.target === modal) {
-    //             closeModal();
-    //         }
-    //     });
-    //     document.addEventListener("keydown", (e) => {
-    //         if (e.code === "Escape" && modal.classList.contains("show")) {
-    //             closeModal();
-    //         }
-    //     });
-
-    //     window.addEventListener("scroll", () => {
-    //         if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
-    //             openModal();
-    //         }
-    //     });
-
+    document.querySelectorAll('.portfolio__img').forEach(item => {
+        item.addEventListener('click', () => {
+            console.log('privet')
+        })
+    })
 })
