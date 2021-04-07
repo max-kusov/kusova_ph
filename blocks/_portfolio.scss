@@ -28,6 +28,9 @@
             flex-direction: column;
             padding-top: 50px;
         }
+        .portfolio__table a {
+            margin-bottom: 15px;
+        }
         .portfolio__item {
             margin: 15px 0;
         }
@@ -58,7 +61,7 @@
         background-size: cover;
         height: 100%;
         width: 100%;
-        margin: 0 auto;
+        margin: 10px auto;
         box-shadow: 0 4px 10px rgba(0, 0, 0, .5) ;
         cursor: pointer;
         border-radius: 5px;
@@ -73,11 +76,11 @@
     .tany {
         background-image: url(../img/portfolio/tany/tany_10.jpg);
     }
-    .anzelika {
-        background-image: url(../img/gallery/13.jpg);
+    .oksana {
+        background-image: url(../img/portfolio/oksana/oksana_7.JPG);
     }
-    .olga {
-        background-image: url(../img/gallery/7.jpg);
+    .anna {
+        background-image: url(../img/portfolio/anna/anna_10.jpg);
     }
     &__img p {
         height: 350px;

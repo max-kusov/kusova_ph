@@ -1,0 +1,46 @@
+.modal {
+    display: none;
+    z-index: 1001;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+    &__window {
+        height: 90%;
+        width: 90%;
+        z-index: 1002;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        background-color: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .5) ;
+        overflow-y: scroll;
+    }
+    &__exit {
+        color: rgba(0,0,0,0.8);
+        font-size: 26px;
+        cursor: pointer;
+
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+    &__table {
+        display: grid;
+        grid-template-columns: 24.7% 24.7% 24.7% 24.7%;
+        grid-template-rows: repeat(2, 350px);
+        grid-gap: 4px;
+        padding: 40px 50px;
+    }
+    &__table img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+
+    }
+}

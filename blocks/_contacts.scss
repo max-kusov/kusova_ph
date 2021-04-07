@@ -1,40 +1,46 @@
 .contacts {
-    height: 100%;
+    height: calc(100% - 30px);
     &__wrap{
-        padding-top: 15%;
+        padding-top: 10%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         font-family: 'Montserrat', sans-serif;
     }
     &__page {
         display: flex;
         flex-direction: column;
-        height: 500px;
-        width: 300px;
+        height: 600px;
+        width: 400px;
         background-color: #fff;
         box-shadow: 0 4px 15px rgba(0, 0, 0, .5) ;
         margin: 0 20px;
-        transition: all .3s;
-        cursor: pointer;
         border-radius: 5px;
         overflow: hidden;
     }
-    &__page:hover {
-        transform: scale(1.05);
-    }
+
     &__page img {
         min-height: 90%;
         width: 100%;
         object-fit: cover;
     }
-    &__info {
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: rgba(0,0,0,0.8);
-        margin-top: 15px;
-        text-align: center;
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    &__social a{
+        text-decoration: none;
+    }
+    &__social i{
+        font-size: 34px;
+        color: rgba(0, 0, 0, 0.8);
+        transition: all .3s;
+        margin: 0 10px;
+    }
+    &__social i:hover {
+        transform: scale(1.2);
     }
 }
 

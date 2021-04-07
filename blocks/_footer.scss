@@ -5,13 +5,15 @@
     &__box {
         height: 170px;
     }
+    &__box--contacts {
+        height: 30px;
+    }
     &__contacts {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 25px 0px 15px 0px;
     }
-
     &__contacts a{
         text-decoration: none;
         padding: 0 10px;

@@ -17,7 +17,7 @@
         <div class="container">
             <div class="header__row">
                 <div class="header__logo">
-                    <img src="img/logo_white.png" alt="logo">
+                    <a href="index.html"><img src="img/logo_white.png" alt="logo"></a>
                 </div>
                 <nav class="header__menu">
 
@@ -44,66 +44,49 @@
     <div class="portfolio">
         <div class="container">
             <div class="portfolio__table">
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img alina">
-                        <p>Алина</p>
-                    </div>
-                </a>
-                <a href="portfolio_regina.html">
-                    <div class="portfolio__img regina">
-                        <p>Регина</p>
-                    </div>
-                </a>
-                <a href="portfolio_tany.html">
-                    <div class="portfolio__img tany">
-                        <p>Таня</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img anzelika">
-                        <p>Анжелика</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img olga">
-                        <p>Ольга</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Малина</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Алина</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Лика</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Алина</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Лика</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Алина</p>
-                    </div>
-                </a>
-                <a href="portfolio_list.html">
-                    <div class="portfolio__img">
-                        <p>Лика</p>
-                    </div>
-                </a>
+                <div data-name='alina' class="portfolio__img alina">
+                    <p>Алина</p>
+                </div>
+                <div class="portfolio__img regina">
+                    <p>Регина</p>
+                </div>
+                <div class="portfolio__img tany">
+                    <p>Таня</p>
+                </div>
+                <div class="portfolio__img oksana">
+                    <p>Оксана</p>
+                </div>
+
+                <div data-name="anna" class="portfolio__img anna">
+                    <p>Анна</p>
+                </div>
+
+                <div class="portfolio__img">
+                    <p>Малина</p>
+                </div>
+
+                <div data-name='alina' class="portfolio__img alina">
+                    <p>Алина</p>
+                </div>
+                <div class="portfolio__img regina">
+                    <p>Регина</p>
+                </div>
+                <div class="portfolio__img tany">
+                    <p>Таня</p>
+                </div>
+                <div class="portfolio__img oksana">
+                    <p>Оксана</p>
+                </div>
+
+                <div data-name="anna" class="portfolio__img anna">
+                    <p>Анна</p>
+                </div>
+
+                <div class="portfolio__img">
+                    <p>Малина</p>
+                </div>
+
+
 
             </div>
         </div>
@@ -128,7 +111,17 @@
         </div>
     </footer>
 
+    <div class="modal">
+        <div class="modal__window">
+            <i class="fas fa-times modal__exit"></i>
+            <div class="modal__table">
+            </div>
+        </div>
+    </div>
 </body>
 <script src="script.js" defer></script>
+<script src="js/catalog.js" defer></script>
+<script src="js/portfolio_window.js" defer></script>
+
 
 </html>
