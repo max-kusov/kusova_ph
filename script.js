@@ -12,12 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
         burger.style.cssText = "display: flex";
         burgerIcon.style.cssText = "display: none";
         exitBurger.style.cssText = "display: block";
+        document.body.style.overflow = "hidden";
     })
 
     exitBurger.addEventListener("click", () => {
         burger.style.cssText = "display: none";
         burgerIcon.style.cssText = "display: block";
         exitBurger.style.cssText = "display: none";
+        document.body.style.overflow = "";
     })
     function manualNav(item) {
         linksBurger.forEach(link => {

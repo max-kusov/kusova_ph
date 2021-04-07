@@ -2,10 +2,10 @@
     display: none;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 100vh;
     width: 100%;
     & li {
-        margin-bottom: 50px;
+        margin: 15% 0;
     }
     & li a{
         display: flex;

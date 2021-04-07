@@ -169,12 +169,12 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 400px;
+  height: 100vh;
   width: 100%;
 }
 
 .burger li {
-  margin-bottom: 50px;
+  margin: 15% 0;
 }
 
 .burger li a {
@@ -989,4 +989,48 @@ a:focus {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .modal__table {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 49.7% 49.7%;
+        grid-template-columns: 49.7% 49.7%;
+    -ms-grid-rows: (450px)[4];
+        grid-template-rows: repeat(4, 450px);
+    grid-gap: 5px;
+    height: 100%;
+    padding: 10px 5px;
+  }
+  .modal__exit {
+    color: rgba(230, 227, 227, 0.6);
+    top: 10%;
+    right: 10%;
+    position: fixed;
+  }
+}
+
+@media (max-width: 550px) {
+  .modal__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    margin-bottom: 50px;
+    padding: 10px 5px;
+  }
+  .modal__table img {
+    margin: 5px 0;
+  }
+  .modal__exit {
+    color: rgba(230, 227, 227, 0.6);
+    top: 10%;
+    right: 10%;
+    position: fixed;
+  }
 }
