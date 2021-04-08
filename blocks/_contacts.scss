@@ -46,14 +46,18 @@
 
 @media (max-width:950px) {
     .contacts {
-        min-height: 1700px;
+        min-height: 500px;
     }
     .contacts__wrap {
         display: flex;
         align-items: center;
         flex-direction: column;
+
     }
     .contacts__page {
         margin: 10px 0;
+        height: 400px;
+        width: 300px;
     }
+
 }
