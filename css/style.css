@@ -552,11 +552,15 @@ a:focus {
 }
 
 .portfolio .oksana {
-  background-image: url(../img/portfolio/oksana/oksana_7.JPG);
+  background-image: url(../img/portfolio/oksana/oksana_3.JPG);
 }
 
 .portfolio .anna {
   background-image: url(../img/portfolio/anna/anna_10.jpg);
+}
+
+.portfolio .nastia {
+  background-image: url(../img/portfolio/nastia/nastia_4.jpg);
 }
 
 .portfolio__img p {

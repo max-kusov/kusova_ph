@@ -413,5 +413,188 @@ const catalogList = [
         alt: 'tany',
     },
 
+    // nastia
+
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_1.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_2.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_3.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_4.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_5.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_6.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_7.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_8.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_9.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_10.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_11.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_12.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_13.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_14.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_15.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_16.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_17.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_18.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_19.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_20.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_21.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_22.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_23.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_24.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_25.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_26.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_27.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_28.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_29.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_30.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_31.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_32.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_33.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_34.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_35.jpg',
+        alt: 'nastia',
+    },
+    {
+        id: 'nastia',
+        img: 'img/portfolio/nastia/nastia_36.jpg',
+        alt: 'nastia',
+    },
+
 
 ]
