@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     
     &__box {
-        height: 170px;
+        height: 140px;
     }
     &__box--contacts {
         height: 30px;
@@ -12,12 +12,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 25px 0px 15px 0px;
+        padding: 20px 0px 10px 0px;
     }
     &__contacts a{
         text-decoration: none;
         padding: 0 10px;
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
         transition: all .3s;
     }
@@ -29,7 +29,7 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        padding: 20px 0;
+        padding: 10px 0;
     }
     &__social a {
         padding: 0 5px;
@@ -52,7 +52,7 @@
 @media (max-width:610px){
     .footer{ 
         &__box {
-            height: 200px;
+            height: 150px;
         }
         &__contacts {
             flex-direction: column;
@@ -60,11 +60,10 @@
         }
         &__contacts a{
             font-size: 20px;
-            margin-bottom: 10px;
         }
         &__social {
             font-size: 35px;
-            padding: 35px 0 35px 0;
+            padding: 25px 0 25px 0;
         }
         &__title {
             padding: 10px 0;

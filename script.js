@@ -73,9 +73,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setInterval(timer, 4000)
 
-    document.querySelectorAll('.portfolio__img').forEach(item => {
-        item.addEventListener('click', () => {
-            console.log('privet')
-        })
-    })
 })

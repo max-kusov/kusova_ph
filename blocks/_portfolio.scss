@@ -3,7 +3,7 @@
     &__table {
         display: grid;
         grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
-        grid-template-rows: repeat(3, 350px);
+        grid-template-rows: repeat(4, 350px);
         grid-gap: 10px;
         height: 100%;
         padding: 10% 0 15% 0;
@@ -67,23 +67,53 @@
         border-radius: 5px;
         overflow: hidden;
     }
-    .alina {
-        background-image: url(../img/portfolio/alina/2.jpg);
+    .alena {
+        background-image: url(../img/portfolio/alena/alena_1.jpg);
     }
     .regina {
-        background-image: url(../img/portfolio/regina/5.jpg);
+        background-image: url(../img/portfolio/regina/regina_4.jpg);
     }
     .tany {
         background-image: url(../img/portfolio/tany/tany_10.jpg);
     }
     .oksana {
-        background-image: url(../img/portfolio/oksana/oksana_3.JPG);
+        background-image: url(../img/portfolio/oksana/oksana_20.JPG);
     }
     .anna {
-        background-image: url(../img/portfolio/anna/anna_10.jpg);
+        background-image: url(../img/portfolio/anna/anna_16.jpg);
     }
     .nastia {
-        background-image: url(../img/portfolio/nastia/nastia_4.jpg);
+        background-image: url(../img/portfolio/nastia/nastia_29.jpg);
+    }
+    .sveta {
+        background-image: url(../img/portfolio/sveta/sveta_19.jpg);
+    }
+    .angelina {
+        background-image: url(../img/portfolio/angelina/angelina_10.jpg);
+    }
+    .ela {
+        background-image: url(../img/portfolio/ela/ela_14.jpg);
+    }
+    .lera {
+        background-image: url(../img/portfolio/lera/lera_1.jpg);
+    }
+    .olga {
+        background-image: url(../img/portfolio/olga/olga_15.jpg);
+    }
+    .maria {
+        background-image: url(../img/portfolio/maria/maria_12.jpg);
+    }
+    .yna {
+        background-image: url(../img/portfolio/yna/yna_17.jpg);
+    }
+    .anastasia {
+        background-image: url(../img/portfolio/anastasia/anastasia_22.jpg);
+    }
+    .dana {
+        background-image: url(../img/portfolio/dana/dana_14.jpg);
+    }
+    .svetlana {
+        background-image: url(../img/portfolio/svetlana/svetlana_13.jpg);
     }
     &__img p {
         height: 350px;

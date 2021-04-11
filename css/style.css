@@ -348,7 +348,7 @@ a:focus {
 }
 
 .footer__box {
-  height: 170px;
+  height: 140px;
 }
 
 .footer__box--contacts {
@@ -365,13 +365,13 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 25px 0px 15px 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 .footer__contacts a {
   text-decoration: none;
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -393,7 +393,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer__social a {
@@ -426,7 +426,7 @@ a:focus {
 
 @media (max-width: 610px) {
   .footer__box {
-    height: 200px;
+    height: 150px;
   }
   .footer__contacts {
     -webkit-box-orient: vertical;
@@ -437,11 +437,10 @@ a:focus {
   }
   .footer__contacts a {
     font-size: 20px;
-    margin-bottom: 10px;
   }
   .footer__social {
     font-size: 35px;
-    padding: 35px 0 35px 0;
+    padding: 25px 0 25px 0;
   }
   .footer__title {
     padding: 10px 0;
@@ -454,8 +453,8 @@ a:focus {
   display: grid;
   -ms-grid-columns: 24.6% 24.6% 24.6% 24.6%;
       grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
-  -ms-grid-rows: (350px)[3];
-      grid-template-rows: repeat(3, 350px);
+  -ms-grid-rows: (350px)[4];
+      grid-template-rows: repeat(4, 350px);
   grid-gap: 10px;
   height: 100%;
   padding: 10% 0 15% 0;
@@ -539,12 +538,12 @@ a:focus {
   overflow: hidden;
 }
 
-.portfolio .alina {
-  background-image: url(../img/portfolio/alina/2.jpg);
+.portfolio .alena {
+  background-image: url(../img/portfolio/alena/alena_1.jpg);
 }
 
 .portfolio .regina {
-  background-image: url(../img/portfolio/regina/5.jpg);
+  background-image: url(../img/portfolio/regina/regina_4.jpg);
 }
 
 .portfolio .tany {
@@ -552,15 +551,55 @@ a:focus {
 }
 
 .portfolio .oksana {
-  background-image: url(../img/portfolio/oksana/oksana_3.JPG);
+  background-image: url(../img/portfolio/oksana/oksana_20.JPG);
 }
 
 .portfolio .anna {
-  background-image: url(../img/portfolio/anna/anna_10.jpg);
+  background-image: url(../img/portfolio/anna/anna_16.jpg);
 }
 
 .portfolio .nastia {
-  background-image: url(../img/portfolio/nastia/nastia_4.jpg);
+  background-image: url(../img/portfolio/nastia/nastia_29.jpg);
+}
+
+.portfolio .sveta {
+  background-image: url(../img/portfolio/sveta/sveta_19.jpg);
+}
+
+.portfolio .angelina {
+  background-image: url(../img/portfolio/angelina/angelina_10.jpg);
+}
+
+.portfolio .ela {
+  background-image: url(../img/portfolio/ela/ela_14.jpg);
+}
+
+.portfolio .lera {
+  background-image: url(../img/portfolio/lera/lera_1.jpg);
+}
+
+.portfolio .olga {
+  background-image: url(../img/portfolio/olga/olga_15.jpg);
+}
+
+.portfolio .maria {
+  background-image: url(../img/portfolio/maria/maria_12.jpg);
+}
+
+.portfolio .yna {
+  background-image: url(../img/portfolio/yna/yna_17.jpg);
+}
+
+.portfolio .anastasia {
+  background-image: url(../img/portfolio/anastasia/anastasia_22.jpg);
+}
+
+.portfolio .dana {
+  background-image: url(../img/portfolio/dana/dana_14.jpg);
+}
+
+.portfolio .svetlana {
+  background-image: url(../img/portfolio/svetlana/svetlana_13.jpg);
 }
 
 .portfolio__img p {

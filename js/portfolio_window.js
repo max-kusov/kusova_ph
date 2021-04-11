@@ -13,13 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
             document.body.style.overflow = "hidden";
 
             let filterDate = item.dataset['name'];
-            console.log(filterDate);
 
             modalImg.forEach(img => {
                 img.style.display = 'block';
                 if (!img.classList.contains(filterDate)) {
                     img.style.display = 'none';
                 }
+
+                // img.addEventListener('click', () => {
+
+                // })
             })
         })
     })
@@ -27,14 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
         modal.style.display = "none";
         document.body.style.overflow = "";
     })
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+            document.body.style.overflow = "";
+        }
+    })
 
     class Photo {
 
         render() {
 
-            catalogList.forEach(({ id, img, alt }) => {
+            catalogList.forEach(({ id, img }) => {
                 modalWindow.innerHTML += `
-                    <img class="${id}" src=${img} alt=${alt}>
+                    <img class="${id}" src=${img} alt=${id}>
                 `
             })
         }
@@ -44,16 +53,3 @@ document.addEventListener("DOMContentLoaded", () => {
     photo.render();
 });
 
-// nav.addEventListener('click', event => {
-//     if (event.target.tagName !== 'LI') return false;
-
-//     let filterDate = event.target.dataset['color'];
-//     console.log(filterDate);
-
-//     square.forEach(item => {
-//         item.style.display = 'block'
-//         if (!item.classList.contains(filterDate)) {
-//             item.style.display = 'none'
-//         }
-//     })
-// })
