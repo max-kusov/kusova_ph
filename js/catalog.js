@@ -1590,4 +1590,289 @@ const catalogList = [
         img: 'img/portfolio/svetlana/svetlana_13.jpg',
     },
 
+    /////// anna and dmitri /////
+
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_1.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_2.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_3.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_4.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_5.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_6.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_7.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_8.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_9.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_10.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_11.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_12.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_13.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_14.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_15.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_16.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_17.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_18.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_19.jpg',
+    },
+    {
+        id: 'annaidima',
+        img: 'img/portfolio/annaidima/annaidima_20.jpg',
+    },
+
+    /////// anna and dmitri /////
+
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_1.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_2.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_3.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_4.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_5.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_6.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_7.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_8.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_9.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_10.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_11.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_12.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_13.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_14.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_15.jpg',
+    },
+    {
+        id: 'dimaiana',
+        img: 'img/portfolio/dimaiana/dimaiana_16.jpg',
+    },
+
+    ///// tatana /////
+
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_1.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_2.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_3.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_4.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_5.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_6.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_7.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_8.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_9.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_10.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_11.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_12.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_13.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_14.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_15.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_16.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_17.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_18.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_19.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_20.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_21.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_22.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_23.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_24.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_25.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_26.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_27.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_28.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_29.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_30.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_31.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_32.jpg',
+    },
+    {
+        id: 'tatana',
+        img: 'img/portfolio/tatana/tatana_33.jpg',
+    },
+
 ]

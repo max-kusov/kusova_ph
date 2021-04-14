@@ -3,7 +3,7 @@
     &__table {
         display: grid;
         grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
-        grid-template-rows: repeat(4, 350px);
+        grid-template-rows: repeat(5, 350px);
         grid-gap: 10px;
         height: 100%;
         padding: 10% 0 15% 0;
@@ -114,6 +114,15 @@
     }
     .svetlana {
         background-image: url(../img/portfolio/svetlana/svetlana_13.jpg);
+    }
+    .annaidima {
+        background-image: url(../img/portfolio/annaidima/annaidima_2.jpg);
+    }
+    .dimaiana {
+        background-image: url(../img/portfolio/dimaiana/dimaiana_1.jpg);
+    }
+    .tatana {
+        background-image: url(../img/portfolio/tatana/tatana_5.jpg);
     }
     &__img p {
         height: 350px;
