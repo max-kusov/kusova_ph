@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     itemsPortfolio.forEach(item => {
         item.addEventListener("click", () => {
-            // let modalImg = modalWindow.querySelectorAll('img');
+            let modalImg = modalWindow.querySelectorAll('img');
 
             modal.style.display = "block";
             document.body.style.overflow = "hidden";
@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!img.classList.contains(filterDate)) {
                     img.style.display = 'none';
                 }
+
                 //// изоброжение на весь экран
                 // img.addEventListener('click', () => {
                 //     let page = document.querySelector('.modal__page');
