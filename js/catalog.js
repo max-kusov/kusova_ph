@@ -30,7 +30,8 @@ const catalogList = [
     {
         id: 'anna',
         img: 'img/portfolio/anna/anna_8.jpg',
-    }, {
+    },
+    {
         id: 'anna',
         img: 'img/portfolio/anna/anna_9.jpg',
     },
@@ -45,7 +46,8 @@ const catalogList = [
     {
         id: 'anna',
         img: 'img/portfolio/anna/anna_12.jpg',
-    }, {
+    },
+    {
         id: 'anna',
         img: 'img/portfolio/anna/anna_13.jpg',
     },
@@ -60,23 +62,11 @@ const catalogList = [
     {
         id: 'anna',
         img: 'img/portfolio/anna/anna_16.jpg',
-    }, {
-        id: 'anna',
-        img: 'img/portfolio/anna/anna_17.jpg',
     },
-    {
-        id: 'anna',
-        img: 'img/portfolio/anna/anna_18.jpg',
-    },
-    {
-        id: 'anna',
-        img: 'img/portfolio/anna/anna_19.jpg',
-    },
-    {
-        id: 'anna',
-        img: 'img/portfolio/anna/anna_20.jpg',
-    },
-    // alena
+
+
+    ////// alena /////
+
     {
         id: 'alena',
         img: 'img/portfolio/alena/alena_1.jpg',
@@ -140,70 +130,6 @@ const catalogList = [
     {
         id: 'alena',
         img: 'img/portfolio/alena/alena_16.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_17.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_18.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_19.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_20.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_21.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_22.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_23.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_24.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_25.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_26.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_27.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_28.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_29.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_30.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_31.jpg',
-    },
-    {
-        id: 'alena',
-        img: 'img/portfolio/alena/alena_32.jpg',
     },
 
     ////// Angelina /////
@@ -272,46 +198,6 @@ const catalogList = [
         id: 'angelina',
         img: 'img/portfolio/angelina/angelina_16.jpg',
     },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_17.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_18.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_19.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_20.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_21.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_22.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_23.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_24.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_25.jpg',
-    },
-    {
-        id: 'angelina',
-        img: 'img/portfolio/angelina/angelina_26.jpg',
-    },
 
     ////// Oksana /////
 
@@ -363,82 +249,10 @@ const catalogList = [
         id: 'oksana',
         img: 'img/portfolio/oksana/oksana_12.jpg',
     },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_13.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_14.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_15.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_16.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_17.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_18.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_19.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_20.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_21.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_22.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_23.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_24.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_25.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_26.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_27.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_28.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_29.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_30.jpg',
-    },
-    {
-        id: 'oksana',
-        img: 'img/portfolio/oksana/oksana_31.jpg',
-    },
+
+    ////// tany //////
+
+
     {
         id: 'tany',
         img: 'img/portfolio/tany/tany_1.jpg',
@@ -490,50 +304,6 @@ const catalogList = [
     {
         id: 'tany',
         img: 'img/portfolio/tany/tany_13.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_14.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_15.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_16.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_17.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_18.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_19.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_20.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_21.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_22.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_23.jpg',
-    },
-    {
-        id: 'tany',
-        img: 'img/portfolio/tany/tany_24.jpg',
     },
 
     // nastia
@@ -602,86 +372,6 @@ const catalogList = [
         id: 'nastia',
         img: 'img/portfolio/nastia/nastia_16.jpg',
     },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_17.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_18.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_19.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_20.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_21.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_22.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_23.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_24.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_25.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_26.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_27.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_28.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_29.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_30.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_31.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_32.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_33.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_34.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_35.jpg',
-    },
-    {
-        id: 'nastia',
-        img: 'img/portfolio/nastia/nastia_36.jpg',
-    },
 
     ///// SVETA /////
 
@@ -733,119 +423,6 @@ const catalogList = [
         id: 'sveta',
         img: 'img/portfolio/sveta/sveta_12.jpg',
     },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_13.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_14.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_15.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_16.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_17.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_18.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_19.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_20.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_21.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_22.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_23.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_24.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_25.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_26.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_27.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_28.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_29.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_30.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_31.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_32.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_33.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_34.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_35.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_36.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_37.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_38.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_39.jpg',
-    },
-    {
-        id: 'sveta',
-        img: 'img/portfolio/sveta/sveta_40.jpg',
-    },
-
 
     //// Regina /////
 
@@ -905,46 +482,6 @@ const catalogList = [
         id: 'regina',
         img: 'img/portfolio/regina/regina_14.jpg',
     },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_15.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_16.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_17.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_18.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_19.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_20.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_21.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_22.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_23.jpg',
-    },
-    {
-        id: 'regina',
-        img: 'img/portfolio/regina/regina_24.jpg',
-    },
 
     ///// ela //////
 
@@ -1003,30 +540,6 @@ const catalogList = [
     {
         id: 'ela',
         img: 'img/portfolio/ela/ela_14.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_15.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_16.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_17.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_18.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_19.jpg',
-    },
-    {
-        id: 'ela',
-        img: 'img/portfolio/ela/ela_20.jpg',
     },
 
     ///// lera /////
@@ -1121,31 +634,6 @@ const catalogList = [
         id: 'olga',
         img: 'img/portfolio/olga/olga_14.jpg',
     },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_15.jpg',
-    },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_16.jpg',
-    },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_17.jpg',
-    },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_18.jpg',
-    },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_19.jpg',
-    },
-    {
-        id: 'olga',
-        img: 'img/portfolio/olga/olga_20.jpg',
-    },
-
 
     ////// Maria //////
 
@@ -1197,31 +685,6 @@ const catalogList = [
         id: 'maria',
         img: 'img/portfolio/maria/maria_12.jpg',
     },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_13.jpg',
-    },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_14.jpg',
-    },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_15.jpg',
-    },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_16.jpg',
-    },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_17.jpg',
-    },
-    {
-        id: 'maria',
-        img: 'img/portfolio/maria/maria_18.jpg',
-    },
-
 
     ///// Yna /////
 
@@ -1272,54 +735,6 @@ const catalogList = [
     {
         id: 'yna',
         img: 'img/portfolio/yna/yna_12.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_13.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_14.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_15.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_16.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_17.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_18.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_19.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_20.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_21.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_22.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_23.jpg',
-    },
-    {
-        id: 'yna',
-        img: 'img/portfolio/yna/yna_24.jpg',
     },
 
     ///// Anastasia ///////
@@ -1388,70 +803,6 @@ const catalogList = [
         id: 'anastasia',
         img: 'img/portfolio/anastasia/anastasia_16.jpg',
     },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_17.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_18.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_19.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_20.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_21.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_22.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_23.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_24.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_25.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_26.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_27.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_28.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_29.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_30.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_31.jpg',
-    },
-    {
-        id: 'anastasia',
-        img: 'img/portfolio/anastasia/anastasia_32.jpg',
-    },
 
     ///// Dana ///////
 
@@ -1511,30 +862,7 @@ const catalogList = [
         id: 'dana',
         img: 'img/portfolio/dana/dana_14.jpg',
     },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_15.jpg',
-    },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_16.jpg',
-    },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_17.jpg',
-    },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_18.jpg',
-    },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_19.jpg',
-    },
-    {
-        id: 'dana',
-        img: 'img/portfolio/dana/dana_20.jpg',
-    },
+
 
     ////// Svetlana /////
     {
@@ -1569,26 +897,7 @@ const catalogList = [
         id: 'svetlana',
         img: 'img/portfolio/svetlana/svetlana_8.jpg',
     },
-    {
-        id: 'svetlana',
-        img: 'img/portfolio/svetlana/svetlana_9.jpg',
-    },
-    {
-        id: 'svetlana',
-        img: 'img/portfolio/svetlana/svetlana_10.jpg',
-    },
-    {
-        id: 'svetlana',
-        img: 'img/portfolio/svetlana/svetlana_11.jpg',
-    },
-    {
-        id: 'svetlana',
-        img: 'img/portfolio/svetlana/svetlana_12.jpg',
-    },
-    {
-        id: 'svetlana',
-        img: 'img/portfolio/svetlana/svetlana_13.jpg',
-    },
+
 
     /////// anna and dmitri /////
 
@@ -1644,34 +953,6 @@ const catalogList = [
         id: 'annaidima',
         img: 'img/portfolio/annaidima/annaidima_13.jpg',
     },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_14.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_15.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_16.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_17.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_18.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_19.jpg',
-    },
-    {
-        id: 'annaidima',
-        img: 'img/portfolio/annaidima/annaidima_20.jpg',
-    },
 
     /////// anna and dmitri /////
 
@@ -1718,26 +999,6 @@ const catalogList = [
     {
         id: 'dimaiana',
         img: 'img/portfolio/dimaiana/dimaiana_11.jpg',
-    },
-    {
-        id: 'dimaiana',
-        img: 'img/portfolio/dimaiana/dimaiana_12.jpg',
-    },
-    {
-        id: 'dimaiana',
-        img: 'img/portfolio/dimaiana/dimaiana_13.jpg',
-    },
-    {
-        id: 'dimaiana',
-        img: 'img/portfolio/dimaiana/dimaiana_14.jpg',
-    },
-    {
-        id: 'dimaiana',
-        img: 'img/portfolio/dimaiana/dimaiana_15.jpg',
-    },
-    {
-        id: 'dimaiana',
-        img: 'img/portfolio/dimaiana/dimaiana_16.jpg',
     },
 
     ///// tatana /////
@@ -1809,70 +1070,6 @@ const catalogList = [
     {
         id: 'tatana',
         img: 'img/portfolio/tatana/tatana_17.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_18.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_19.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_20.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_21.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_22.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_23.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_24.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_25.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_26.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_27.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_28.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_29.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_30.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_31.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_32.jpg',
-    },
-    {
-        id: 'tatana',
-        img: 'img/portfolio/tatana/tatana_33.jpg',
     },
 
 ]
