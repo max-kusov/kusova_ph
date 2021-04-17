@@ -3,14 +3,33 @@
     &__table {
         display: grid;
         grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
-        grid-template-rows: repeat(5, 350px);
+        grid-template-rows: repeat(3, 350px);
         grid-gap: 10px;
         height: 100%;
-        padding: 10% 0 15% 0;
+        padding: 10% 0 7% 0;
     }
     &__table a{
         text-decoration: none;
         border: none;
+    }
+    &__nav {
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        padding: 0 0 7%;
+    }
+    &__nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__nav a {
+        padding: 0 5px;
+        text-decoration: none;
+        color: black;
+    }
+    &__nav li {
+        padding: 0 5px;
     }
 
     @media (max-width:992px) {
