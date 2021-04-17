@@ -24,6 +24,10 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, .5) ;
         border-radius: 5px;
     }
+    &__section li {
+        padding: 3px 0;
+        font-family: 'Roboto', sans-serif;
+    }
     &__section h1 {
         font-weight: 700;
         text-transform: uppercase;
@@ -37,7 +41,7 @@
     &__section h3 {
         font-weight: 500;
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     &__img {
         background-repeat: no-repeat;

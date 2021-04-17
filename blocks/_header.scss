@@ -3,6 +3,13 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    span { 
+        ////// test
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
 
     &__row {
         display: flex;
@@ -12,6 +19,7 @@
     }
     &__logo {
         width: 35%;
+        margin: 5px 0; ////// test
     }
     &__logo img{
         width: 50%;

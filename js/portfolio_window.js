@@ -30,12 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     img.style.display = 'none';
                 }
 
-                //// изоброжение на весь экран
-                // img.addEventListener('click', () => {
-                //     let page = document.querySelector('.modal__page');
-                //     openImg.style.display = 'flex';
-                //     page.append(img);
-                // })
             })
         })
     })
@@ -50,12 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 
-    ////// изоброжение на весь экран
-    // openImg.addEventListener('click', (event) => {
-    //     if (event.target === openImg) {
-    //         openImg.style.display = "none";
-    //     }
-    // })
 
     class Photo {
 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -89,6 +90,13 @@ a:focus {
   z-index: 999;
 }
 
+.header span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +112,7 @@ a:focus {
 
 .header__logo {
   width: 35%;
+  margin: 5px 0;
 }
 
 .header__logo img {
@@ -800,6 +809,11 @@ a:focus {
   border-radius: 5px;
 }
 
+.price__section li {
+  padding: 3px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .price__section h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -820,7 +834,7 @@ a:focus {
 .price__section h3 {
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .price__img {
@@ -1040,33 +1054,4 @@ a:focus {
     right: 10%;
     position: fixed;
   }
-}
-
-.modal__img {
-  display: none;
-  z-index: 2001;
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  position: fixed;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.modal__img img {
-  height: 100%;
-  top: 0;
-}
-
-.modal__img i {
-  font-size: 100px;
-  padding: 0 20px;
-  opacity: .9;
 }
