@@ -66,9 +66,14 @@
     }
     &__conditions{
         margin: 25px 0;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(54, 54, 54);
+        
     }
     &__additional {
         margin: 25px 0;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(54, 54, 54);
     }
     &__wrapp {
         padding: 20px;
@@ -83,9 +88,6 @@
         font-weight: 700;
         font-size: 24px;
         padding-bottom: 20px;
-    }
-    &__list {
-        padding-top: 20px;
     }
     &__list li {
         font-size: 18px;
@@ -136,10 +138,10 @@
 }
 @media (max-width:450px) {
     .price {
-        min-height: 2650px;
+        min-height: 2700px;
     }
 }
-@media (max-width:340px) {
+@media (max-width:385px) {
     .price {
         min-height: 2800px;
     }

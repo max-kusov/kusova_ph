@@ -97,6 +97,10 @@ a:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .header__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,7 +115,6 @@ a:focus {
 }
 
 .header__logo {
-  width: 35%;
   margin: 5px 0;
 }
 
@@ -134,7 +137,6 @@ a:focus {
 
 .header__links li a {
   font-size: 14px;
-  text-decoration: none;
   text-transform: uppercase;
   color: #cccbcb;
 }
@@ -155,6 +157,9 @@ a:focus {
   .header__links li a {
     font-size: 14px;
   }
+  .header span {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 772px) {
@@ -165,8 +170,8 @@ a:focus {
     display: block;
     width: 30px;
   }
-  .header__logo img {
-    width: 100%;
+  .header span {
+    font-size: 18px;
   }
 }
 
@@ -466,7 +471,7 @@ a:focus {
       grid-template-rows: repeat(3, 350px);
   grid-gap: 10px;
   height: 100%;
-  padding: 10% 0 7% 0;
+  padding: 7% 0;
 }
 
 .portfolio__table a {
@@ -577,7 +582,7 @@ a:focus {
 }
 
 .portfolio .alena {
-  background-image: url(../img/portfolio/alena/alena_1.jpg);
+  background-image: url(../img/portfolio/alena/alena_16.jpg);
 }
 
 .portfolio .regina {
@@ -585,31 +590,31 @@ a:focus {
 }
 
 .portfolio .tany {
-  background-image: url(../img/portfolio/tany/tany_10.jpg);
+  background-image: url(../img/portfolio/tany/tany_1.jpg);
 }
 
 .portfolio .oksana {
-  background-image: url(../img/portfolio/oksana/oksana_1.JPG);
+  background-image: url(../img/portfolio/oksana/oksana_4.jpg);
 }
 
 .portfolio .anna {
-  background-image: url(../img/portfolio/anna/anna_16.jpg);
+  background-image: url(../img/portfolio/anna/anna_5.jpg);
 }
 
 .portfolio .nastia {
-  background-image: url(../img/portfolio/nastia/nastia_1.jpg);
+  background-image: url(../img/portfolio/nastia/nastia_11.jpg);
 }
 
 .portfolio .sveta {
-  background-image: url(../img/portfolio/sveta/sveta_1.jpg);
+  background-image: url(../img/portfolio/sveta/sveta_7.jpg);
 }
 
 .portfolio .angelina {
-  background-image: url(../img/portfolio/angelina/angelina_10.jpg);
+  background-image: url(../img/portfolio/angelina/angelina_4.jpg);
 }
 
 .portfolio .ela {
-  background-image: url(../img/portfolio/ela/ela_14.jpg);
+  background-image: url(../img/portfolio/ela/ela_8.jpg);
 }
 
 .portfolio .lera {
@@ -617,39 +622,47 @@ a:focus {
 }
 
 .portfolio .olga {
-  background-image: url(../img/portfolio/olga/olga_1.jpg);
+  background-image: url(../img/portfolio/olga/olga_11.jpg);
 }
 
 .portfolio .maria {
-  background-image: url(../img/portfolio/maria/maria_12.jpg);
+  background-image: url(../img/portfolio/maria/maria_2.jpg);
 }
 
 .portfolio .yna {
-  background-image: url(../img/portfolio/yna/yna_1.jpg);
+  background-image: url(../img/portfolio/yna/yna_9.jpg);
 }
 
 .portfolio .anastasia {
-  background-image: url(../img/portfolio/anastasia/anastasia_1.jpg);
+  background-image: url(../img/portfolio/anastasia/anastasia_9.jpg);
 }
 
 .portfolio .dana {
-  background-image: url(../img/portfolio/dana/dana_14.jpg);
+  background-image: url(../img/portfolio/dana/dana_10.jpg);
 }
 
 .portfolio .svetlana {
-  background-image: url(../img/portfolio/svetlana/svetlana_1.jpg);
+  background-image: url(../img/portfolio/svetlana/svetlana_8.jpg);
 }
 
 .portfolio .annaidima {
-  background-image: url(../img/portfolio/annaidima/annaidima_2.jpg);
+  background-image: url(../img/portfolio/annaidima/annaidima_7.jpg);
 }
 
 .portfolio .dimaiana {
-  background-image: url(../img/portfolio/dimaiana/dimaiana_1.jpg);
+  background-image: url(../img/portfolio/dimaiana/dimaiana_10.jpg);
 }
 
 .portfolio .tatana {
-  background-image: url(../img/portfolio/tatana/tatana_5.jpg);
+  background-image: url(../img/portfolio/tatana/tatana_12.jpg);
+}
+
+.portfolio .leraizhena {
+  background-image: url(../img/portfolio/leraizhena/leraizhena_12.jpg);
+}
+
+.portfolio .angelinaikirill {
+  background-image: url(../img/portfolio/angelinaikirill/angelinaikirill_15.jpg);
 }
 
 .portfolio__img p {
@@ -894,10 +907,14 @@ a:focus {
 
 .price__conditions {
   margin: 25px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
 }
 
 .price__additional {
   margin: 25px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
 }
 
 .price__wrapp {
@@ -915,10 +932,6 @@ a:focus {
   font-weight: 700;
   font-size: 24px;
   padding-bottom: 20px;
-}
-
-.price__list {
-  padding-top: 20px;
 }
 
 .price__list li {
@@ -978,11 +991,11 @@ a:focus {
 
 @media (max-width: 450px) {
   .price {
-    min-height: 2650px;
+    min-height: 2700px;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 385px) {
   .price {
     min-height: 2800px;
   }
