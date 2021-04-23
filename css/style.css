@@ -579,14 +579,15 @@ a:focus {
   cursor: pointer;
   border-radius: 5px;
   overflow: hidden;
+  position: relative;
 }
 
-.portfolio .alena {
-  background-image: url(../img/portfolio/alena/alena_16.jpg);
-}
-
-.portfolio .regina {
-  background-image: url(../img/portfolio/regina/regina_4.jpg);
+.portfolio__img img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  max-width: 100%;
 }
 
 .portfolio .tany {
@@ -597,44 +598,16 @@ a:focus {
   background-image: url(../img/portfolio/oksana/oksana_4.jpg);
 }
 
-.portfolio .anna {
-  background-image: url(../img/portfolio/anna/anna_5.jpg);
-}
-
-.portfolio .nastia {
-  background-image: url(../img/portfolio/nastia/nastia_11.jpg);
-}
-
-.portfolio .sveta {
-  background-image: url(../img/portfolio/sveta/sveta_7.jpg);
-}
-
 .portfolio .angelina {
   background-image: url(../img/portfolio/angelina/angelina_4.jpg);
-}
-
-.portfolio .ela {
-  background-image: url(../img/portfolio/ela/ela_8.jpg);
-}
-
-.portfolio .lera {
-  background-image: url(../img/portfolio/lera/lera_1.jpg);
 }
 
 .portfolio .olga {
   background-image: url(../img/portfolio/olga/olga_11.jpg);
 }
 
-.portfolio .maria {
-  background-image: url(../img/portfolio/maria/maria_2.jpg);
-}
-
 .portfolio .yna {
   background-image: url(../img/portfolio/yna/yna_9.jpg);
-}
-
-.portfolio .anastasia {
-  background-image: url(../img/portfolio/anastasia/anastasia_9.jpg);
 }
 
 .portfolio .dana {
@@ -651,10 +624,6 @@ a:focus {
 
 .portfolio .dimaiana {
   background-image: url(../img/portfolio/dimaiana/dimaiana_10.jpg);
-}
-
-.portfolio .tatana {
-  background-image: url(../img/portfolio/tatana/tatana_12.jpg);
 }
 
 .portfolio .leraizhena {
