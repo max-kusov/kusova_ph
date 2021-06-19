@@ -85,13 +85,12 @@
         cursor: pointer;
         border-radius: 5px;
         overflow: hidden;
-        position: relative;
     }
-    &__img img{
-        position: absolute;              
-        top: 50%;                         
-        transform: translate(0, -50%);
-        max-width: 100%;
+    .alena {
+        background-image: url(../img/portfolio/alena/alena_16.jpg);
+    }
+    .regina {
+        background-image: url(../img/portfolio/regina/regina_4.jpg);
     }
     .tany {
         background-image: url(../img/portfolio/tany/tany_1.jpg);
@@ -99,14 +98,35 @@
     .oksana {
         background-image: url(../img/portfolio/oksana/oksana_4.jpg);
     }
+    .anna {
+        background-image: url(../img/portfolio/anna/anna_5.jpg);
+    }
+    .nastia {
+        background-image: url(../img/portfolio/nastia/nastia_11.jpg);
+    }
+    .sveta {
+        background-image: url(../img/portfolio/sveta/sveta_7.jpg);
+    }
     .angelina {
         background-image: url(../img/portfolio/angelina/angelina_4.jpg);
+    }
+    .ela {
+        background-image: url(../img/portfolio/ela/ela_8.jpg);
+    }
+    .lera {
+        background-image: url(../img/portfolio/lera/lera_1.jpg);
     }
     .olga {
         background-image: url(../img/portfolio/olga/olga_11.jpg);
     }
+    .maria {
+        background-image: url(../img/portfolio/maria/maria_2.jpg);
+    }
     .yna {
         background-image: url(../img/portfolio/yna/yna_9.jpg);
+    }
+    .anastasia {
+        background-image: url(../img/portfolio/anastasia/anastasia_9.jpg);
     }
     .dana {
         background-image: url(../img/portfolio/dana/dana_10.jpg);
@@ -120,8 +140,14 @@
     .dimaiana {
         background-image: url(../img/portfolio/dimaiana/dimaiana_10.jpg);
     }
+    .tatana {
+        background-image: url(../img/portfolio/tatana/tatana_12.jpg);
+    }
     .leraizhena {
         background-image: url(../img/portfolio/leraizhena/leraizhena_12.jpg);
+    }
+    .angelinaikirill {
+        background-image: url(../img/portfolio/angelinaikirill/angelinaikirill_15.jpg);
     }
     &__img p {
         height: 350px;

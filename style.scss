@@ -16,45 +16,19 @@ a:focus {
 }
 
 
-.preloader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1001;
-    background-color: #fff;
-}
-.hidepreloader {
-    animation: hidepreloader 2.5s;
-}
-@keyframes hidepreloader {
-    0%{
-        opacity: 1;
-    }
-    70%{
-        opacity: 0;
-    }
-}
+// $back: #fff; пример переменой
 
-.show {
-    display: block;
-}
-.hide {
-    display: none;
-}
 
 
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/burger";
-@import "blocks/slider";
 @import "blocks/footer";
 @import "blocks/portfolio";
 @import "blocks/contacts";
 @import "blocks/price";
-@import "blocks/modal";
+@import "./modules/Slider/slider";
+@import "./modules/Modal/modal";
+@import "./modules/Preloader/preloader";
+@import "./modules/Burger/menu";
 

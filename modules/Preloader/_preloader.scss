@@ -1,0 +1,13 @@
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1001;
+    opacity: .7;
+}
+.hide {
+    display: none;
+}

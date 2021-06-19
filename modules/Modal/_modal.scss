@@ -29,22 +29,25 @@
         top: 7px;
         right: 10px;
     }
-    &__table {
+    &__content {
         display: grid;
         grid-template-columns: 24.7% 24.7% 24.7% 24.7%;
         grid-template-rows: repeat(2, 350px);
         grid-gap: 4px;
         padding: 40px 50px;
     }
-    &__table img {
+    &__content img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         cursor: pointer;
     }
 }
+.open {
+    display: flex;
+}
 @media (max-width:992px) {
-    .modal__table {
+    .modal__content {
         display: grid;
         grid-template-columns: 49.7% 49.7%;
         grid-template-rows: repeat(4, 450px);
@@ -60,14 +63,14 @@
     }
 }
 @media (max-width:550px) {
-    .modal__table {
+    .modal__content {
         display: flex;
         flex-direction: column;
         height: 100%;
         margin-bottom: 50px;
         padding: 10px 5px;
       }
-      .modal__table img {
+      .modal__content img {
         margin: 5px 0;
     }
     .modal__exit {
