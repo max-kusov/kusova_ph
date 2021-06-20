@@ -7,29 +7,32 @@ class Slider {
     }
     getSlider() {
         return `
-        <div class="slider__page  active">
-            <div class="slider__img--four"></div>
-        </div>
-        <div class="slider__page">
-            <div class="slider__img--three"></div>
-        </div>
-        <div class="slider__page">
-            <div class="slider__img--two"></div>
-        </div>
-        <div class="slider__page">
-            <div class="slider__img"></div>
-        </div>
-        <nav class="slider__nav">
-            <div class="slider__btn"></div>
-            <div class="slider__btn"></div>
-            <div class="slider__btn"></div>
-            <div class="slider__btn"></div>
-        </nav>
-        <div class="slider__social">
-            <a href="https://www.t.me/kusovaaaaaaa" target=" _blank"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://www.instagram.com/kusovaaaaaaa/?igshid=t60wcs3v8rz8" target="_blank"><i
-                    class="fab fa-instagram"></i></a>
-        </div>
+            <div class="slider__page  active">
+                <img class="slider__img" src="/img/5.jpg" alt="">
+            </div>
+
+            <div class="slider__page">
+                <img class="slider__img" src="/img/4.jpg" alt="">
+            </div>
+
+            <div class="slider__page">
+                <img class="slider__img" src="/img/3.jpg" alt="">
+            </div>
+            
+            <div class="slider__page">
+                <img class="slider__img" src="/img/2.jpg" alt="">
+            </div>
+            <nav class="slider__nav">
+                <div class="slider__btn"></div>
+                <div class="slider__btn"></div>
+                <div class="slider__btn"></div>
+                <div class="slider__btn"></div>
+            </nav>
+            <div class="slider__social">
+                <a href="https://www.t.me/kusovaaaaaaa" target=" _blank"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://www.instagram.com/kusovaaaaaaa/?igshid=t60wcs3v8rz8" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
         `
     }
     movePage(pages) {
