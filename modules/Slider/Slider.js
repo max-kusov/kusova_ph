@@ -8,7 +8,7 @@ class Slider {
     getSlider() {
         return `
             <div class="slider__page  active">
-                <img class="slider__img" src="/img/5.jpg" alt="">
+                <img class="slider__img" src="../img/5.jpg" alt="">
             </div>
 
             <div class="slider__page">
