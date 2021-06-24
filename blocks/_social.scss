@@ -1,0 +1,25 @@
+.social {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+.social a{
+    color: #fff;
+    font-size: 35px;
+    z-index: 999;
+    opacity: .7;
+    padding-left: 10px;
+    transition: all .2s ;
+}
+.social a:hover {
+    transform: scale(1.3);
+}
+@media(max-width:776px){
+    .social {
+        right: 0;
+        justify-content: center;
+        width: 100%;
+    }
+}

@@ -685,6 +685,41 @@ a:focus {
   }
 }
 
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+}
+
+.social a {
+  color: #fff;
+  font-size: 35px;
+  z-index: 999;
+  opacity: .7;
+  padding-left: 10px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.social a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+@media (max-width: 776px) {
+  .social {
+    right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
 .slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -698,30 +733,7 @@ a:focus {
   position: relative;
   height: 100vh;
   background-color: #000;
-}
-
-.slider__social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
-
-.slider__social a {
-  color: #fff;
-  font-size: 35px;
-  z-index: 1100;
-  opacity: .7;
-  padding-left: 10px;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.slider__social a:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  overflow: hidden;
 }
 
 .slider__page {
@@ -732,7 +744,8 @@ a:focus {
           clip-path: circle(30% at 0% 50%);
 }
 
-.slider .slider__page.active {
+.slider__page.active {
+  z-index: 2;
   -webkit-clip-path: circle(150% at 0% 50%);
           clip-path: circle(150% at 0% 50%);
   -webkit-transition: 1.5s;
@@ -741,6 +754,13 @@ a:focus {
   transition-property: -webkit-clip-path;
   transition-property: clip-path;
   transition-property: clip-path, -webkit-clip-path;
+}
+
+.slider__img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .slider__nav {
@@ -771,35 +791,9 @@ a:focus {
           transform: scale(1.4);
 }
 
-.slider__img {
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.active {
-  z-index: 2;
-}
-
-@media (max-width: 650px) {
-  .slider__img {
-    background-image: url(../img/gallery/4.jpg);
-  }
-  .slider__img--two {
-    background-image: url(../img/gallery/3.jpg);
-  }
-  .slider__img--three {
-    background-image: url(../img/gallery/2.jpg);
-  }
-  .slider__img--four {
-    background-image: url(../img/gallery/1.jpg);
-  }
+@media (max-width: 776px) {
   .slider__btn {
     display: none;
-  }
-  .slider__social {
-    right: auto;
   }
 }
 

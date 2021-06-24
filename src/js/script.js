@@ -3,12 +3,14 @@
 import Menu from '../../modules/Menu/Menu'
 import Slider from '../../modules/Slider/Slider'
 
-const slider = new Slider([
-    './gallery/1.jpg',
-    './gallery/2.jpg',
-    './gallery/3.jpg',
-    './gallery/4.jpg',
-])
+const slider = new Slider({
+    imgDesktop: ['./img/5.jpg',
+        './img/4.jpg',
+        './img/3.jpg',
+        './img/2.jpg',],
+    imgModile: [],
+    valueInterval: 1500,
+})
 const menu = new Menu([
     { href: "portfolio.html", text: "Портфолио" },
     { href: "portfolio.html", text: "Портфолио" },

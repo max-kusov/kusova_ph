@@ -27,8 +27,10 @@ a:focus {
 @import "blocks/portfolio";
 @import "blocks/contacts";
 @import "blocks/price";
+@import "blocks/social";
+
 @import "./modules/Slider/slider";
 @import "./modules/Modal/modal";
 @import "./modules/Preloader/preloader";
-@import "./modules/Burger/menu";
+@import "./modules/Menu/menu";
 

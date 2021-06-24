@@ -99,78 +99,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 
 class Slider {
-    constructor(pages) {
-        this.movePage(pages)
-        this.init()
-
+    constructor(options) {
+        this.options = options
+        this._init()
     }
-    getSlider() {
+    _getSlider() { // разбить на два метода? создание слайдера и кнопок??? 
+        let btn = `<div class="slider__btn"></div>`,
+            items = this.options.imgDesktop.map(item => {
+                return `
+                    <div class="slider__page">
+                        <img class="slider__img" src="${item}" alt="">
+                    </div>
+                `
+            })
+
         return `
-            <div class="slider__page  active">
-                <img class="slider__img" src="../img/5.jpg" alt="">
-            </div>
-
-            <div class="slider__page">
-                <img class="slider__img" src="/img/4.jpg" alt="">
-            </div>
-
-            <div class="slider__page">
-                <img class="slider__img" src="/img/3.jpg" alt="">
-            </div>
-            
-            <div class="slider__page">
-                <img class="slider__img" src="/img/2.jpg" alt="">
-            </div>
+            ${items.join('')}
             <nav class="slider__nav">
-                <div class="slider__btn"></div>
-                <div class="slider__btn"></div>
-                <div class="slider__btn"></div>
-                <div class="slider__btn"></div>
+                ${btn.repeat(items.length)}
             </nav>
-            <div class="slider__social">
-                <a href="https://www.t.me/kusovaaaaaaa" target=" _blank"><i class="fab fa-telegram-plane"></i></a>
-                <a href="https://www.instagram.com/kusovaaaaaaa/?igshid=t60wcs3v8rz8" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-            </div>
         `
     }
-    movePage(pages) {
-        this.pages = pages
-        this.pages.map(item => console.log(item))
-    }
-    clickBtn() {
-        this.handlerBtnClick = this.handlerBtnClick.bind(this)
 
+    _addEvents() {
+        this._handlerBtnClick = this._handlerBtnClick.bind(this)
         this.btns = document.querySelectorAll(".slider__btn")
-        this.btns.forEach((btn, i) => {
-            btn.addEventListener('click', () => this.handlerBtnClick(i))
-        })
+        this.btns.forEach((btn, i) => btn.addEventListener('click', () => this._handlerBtnClick(i)))
     }
-    time() {
-        this.img = document.querySelectorAll('.slider__page')
-        let i = 1
-        setInterval(() => {
-            this.handlerBtnClick(i++)
-            if (i >= this.img.length) {
-                return i = 0
-            }
-        }, 4000);
+
+    _handlerBtnClick(i) {
+        this._changeImage(i)
+        return this.counter = i
     }
-    handlerBtnClick(i) {
+
+    _changeImage(i) {
         this.img = document.querySelectorAll('.slider__page')
         this.img.forEach(i => i.classList.remove('active'))
         this.img[i].classList.add('active')
     }
-    render() {
-        this.slidery = document.querySelector('#slider')
-        this.slidery.classList.add('slider')
-        this.slidery.innerHTML = this.getSlider()
 
+    _isValueIntervalValid() {
+        return (this.valueInterval == '') || (this.valueInterval == undefined) || (this.valueInterval <= 1500)
     }
-    init() {
-        this.render()
-        this.time()
-        this.clickBtn()
+
+    _checkingIntervalValues() {
+        this.valueInterval = this.options.valueInterval
+        this.valueInterval = this._isValueIntervalValid() ? 4000 : this.valueInterval
+    }
+
+    _checkingСounterValues() {
+        this.counter = (this.counter >= this.img.length) ? 0 : this.counter
+    }
+
+    _changeImageAtInterval() {
+        this._checkingIntervalValues()
+        setInterval(() => {
+            this._changeImage(this.counter++)
+            this._checkingСounterValues()
+        }, this.valueInterval);
+    }
+
+    _render() {
+        this.counter = 1
+        this.slider = document.querySelector('#slider')
+        this.slider.classList.add('slider')
+        this.slider.innerHTML = this._getSlider()
+    }
+    _init() {
+        this._render()
+        this._changeImage(0)
+        this._addEvents()
+        this._changeImageAtInterval()
     }
 
 }
@@ -250,12 +249,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const slider = new _modules_Slider_Slider__WEBPACK_IMPORTED_MODULE_1__.default([
-    './gallery/1.jpg',
-    './gallery/2.jpg',
-    './gallery/3.jpg',
-    './gallery/4.jpg',
-])
+const slider = new _modules_Slider_Slider__WEBPACK_IMPORTED_MODULE_1__.default({
+    imgDesktop: ['./img/5.jpg',
+        './img/4.jpg',
+        './img/3.jpg',
+        './img/2.jpg',],
+    imgModile: [],
+    valueInterval: 1500,
+})
 const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_0__.default([
     { href: "portfolio.html", text: "Портфолио" },
     { href: "portfolio.html", text: "Портфолио" },
