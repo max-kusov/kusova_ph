@@ -43,20 +43,20 @@ class Slider {
         return (this.valueInterval == '') || (this.valueInterval == undefined) || (this.valueInterval <= 1500)
     }
 
-    _checkingIntervalValues() {
+    _checkIntervalValues() {
         this.valueInterval = this.options.valueInterval
         this.valueInterval = this._isValueIntervalValid() ? 4000 : this.valueInterval
     }
 
-    _checkingСounterValues() {
+    _checkСounterValues() {
         this.counter = (this.counter >= this.img.length) ? 0 : this.counter
     }
 
     _changeImageAtInterval() {
-        this._checkingIntervalValues()
+        this._checkIntervalValues()
         setInterval(() => {
             this._changeImage(this.counter++)
-            this._checkingСounterValues()
+            this._checkСounterValues()
         }, this.valueInterval);
     }
 

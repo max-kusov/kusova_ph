@@ -63,9 +63,7 @@ const catalogList = [
         id: 'anna',
         img: 'img/portfolio/anna/anna_16.jpg',
     },
-
     ///// tatana /////
-
     {
         id: 'tatana',
         img: 'img/portfolio/tatana/tatana_1.jpg',
@@ -134,9 +132,7 @@ const catalogList = [
         id: 'tatana',
         img: 'img/portfolio/tatana/tatana_17.jpg',
     },
-
     ////// alena /////
-
     {
         id: 'alena',
         img: 'img/portfolio/alena/alena_1.jpg',
@@ -201,10 +197,7 @@ const catalogList = [
         id: 'alena',
         img: 'img/portfolio/alena/alena_16.jpg',
     },
-
-
     ////// Oksana /////
-
     {
         id: 'oksana',
         img: 'img/portfolio/oksana/oksana_1.jpg',
@@ -253,10 +246,7 @@ const catalogList = [
         id: 'oksana',
         img: 'img/portfolio/oksana/oksana_12.jpg',
     },
-
-
     ///// Anastasia ///////
-
     {
         id: 'anastasia',
         img: 'img/portfolio/anastasia/anastasia_1.jpg',
@@ -321,9 +311,7 @@ const catalogList = [
         id: 'anastasia',
         img: 'img/portfolio/anastasia/anastasia_16.jpg',
     },
-
     // nastia
-
     {
         id: 'nastia',
         img: 'img/portfolio/nastia/nastia_1.jpg',
@@ -388,9 +376,7 @@ const catalogList = [
         id: 'nastia',
         img: 'img/portfolio/nastia/nastia_16.jpg',
     },
-
     ///// SVETA /////
-
     {
         id: 'sveta',
         img: 'img/portfolio/sveta/sveta_1.jpg',
@@ -439,9 +425,7 @@ const catalogList = [
         id: 'sveta',
         img: 'img/portfolio/sveta/sveta_12.jpg',
     },
-
     //// Regina /////
-
     {
         id: 'regina',
         img: 'img/portfolio/regina/regina_1.jpg',
@@ -498,9 +482,7 @@ const catalogList = [
         id: 'regina',
         img: 'img/portfolio/regina/regina_14.jpg',
     },
-
     ///// ela //////
-
     {
         id: 'ela',
         img: 'img/portfolio/ela/ela_1.jpg',
@@ -557,9 +539,7 @@ const catalogList = [
         id: 'ela',
         img: 'img/portfolio/ela/ela_14.jpg',
     },
-
     ///// lera /////
-
     {
         id: 'lera',
         img: 'img/portfolio/lera/lera_1.jpg',
@@ -592,10 +572,7 @@ const catalogList = [
         id: 'lera',
         img: 'img/portfolio/lera/lera_8.jpg',
     },
-
-
     ////// Maria //////
-
     {
         id: 'maria',
         img: 'img/portfolio/maria/maria_1.jpg',
@@ -644,9 +621,7 @@ const catalogList = [
         id: 'maria',
         img: 'img/portfolio/maria/maria_12.jpg',
     },
-
     ///// angelina & kirill /////
-
     {
         id: 'angelinaikirill',
         img: 'img/portfolio/angelinaikirill/angelinaikirill_1.jpg',
@@ -719,5 +694,7 @@ const catalogList = [
         id: 'angelinaikirill',
         img: 'img/portfolio/angelinaikirill/angelinaikirill_18.jpg',
     },
-
 ]
+
+// let json = JSON.stringify(catalogList)
+// console.log(json)

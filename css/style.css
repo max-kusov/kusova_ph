@@ -915,6 +915,8 @@ a:focus {
   background-color: #fff;
   z-index: 1001;
   opacity: .7;
+  position: absolute;
+  top: 0;
 }
 
 .hide {
@@ -986,13 +988,13 @@ a:focus {
         -ms-flex-align: center;
             align-items: center;
   }
-  .menu__icon {
+  .menu__btn {
     display: none;
   }
 }
 
 @media (max-width: 776px) {
-  .menu__icon {
+  .menu__btn {
     cursor: pointer;
     opacity: .8;
     color: #fff;
@@ -1001,7 +1003,7 @@ a:focus {
     -webkit-transition: all .3s;
     transition: all .3s;
   }
-  .menu__icon:hover {
+  .menu__btn:hover {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
