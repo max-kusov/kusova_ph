@@ -2,12 +2,11 @@
 
 class Modal {
     constructor(options = {}) {
-        this._init(options)
+        this.options = options
+
+        this._init()
     }
     _getModal() {
-        // let people = this.options.catalogs.anna.map(item => {
-        //     return `<img class="" src=${item} alt=""></img>`
-        // })
         return `
             <div class="modal__window">
                 <i class="fas fa-times modal__exit"></i>
@@ -22,42 +21,15 @@ class Modal {
         this.trigger = document.querySelectorAll(this.options.triggerElement)
         this.handlerImgClick = this.handlerImgClick.bind(this)
         this.trigger.forEach(elem => elem.addEventListener('click', this.handlerImgClick))
-
-        this.trigger.forEach(elem => elem.addEventListener('click', (e) => {
-            let gie = e.target.dataset['name']
-            console.log(this.options.catalogs)
-            for (let key in this.options.catalogs) {
-                if (key == gie) {
-                    // console.log(key)
-                    let a = this.options.catalogs[key].map(item => {
-                        return `<img class="" src=${item} alt=""></img>`
-                    })
-
-                    document.querySelector('.modal__content').innerHTML = a.join('')
-
-
-                }
-            }
-
-
-            // .map(item => {
-            //     return `<img class="" src=${item} alt=""></img>`
-            // })
-
-            // document.querySelector('.modal__content').innerHTML = ?????.join('')
-        }))
-
     }
 
     closeModal() {
         this.handlerExitClick = this.handlerExitClick.bind(this)
 
-        this.close = document.querySelector('.fa-times')
-        this.close.addEventListener('click', this.handlerExitClick)
+        this.BtnClose = document.querySelector('.fa-times')
+        this.BtnClose.addEventListener('click', this.handlerExitClick)
 
-        this.modalSelector.addEventListener('click', (e) => {
-            e.target === this.modalSelector && this.handlerExitClick()
-        })
+        this.modalSelector.addEventListener('click', e => e.target === this.modalSelector && this.handlerExitClick())
     }
 
     handlerImgClick() {
@@ -79,12 +51,39 @@ class Modal {
         this.openModal()
         this.closeModal()
     }
-    _init(options) {
-        this.options = options
-
+    _init() {
         this._render()
+        // this._renderContent()
         this._addEvent()
     }
 }
 
+class ModalContent {
+    constructor(modal, catalogs) {
+        this.modal = modal
+        this.catalogs = catalogs
+
+        this._init()
+    }
+    _render() {
+        this.modal.trigger = document.querySelectorAll(this.modal.options.triggerElement)
+        this.modal.trigger.forEach(elem => elem.addEventListener('click', (e) => {
+            let event = e.target.dataset['name']
+
+            for (let key in this.catalogs) {
+                if (key == event) {
+                    let a = this.catalogs[key].map(item => {
+                        return `<img class="" src=${item} alt=""></img>`
+                    })
+                    document.querySelector('.modal__content').innerHTML = a.join('')
+                }
+            }
+        }))
+    }
+    _init() {
+        this._render()
+        // this._addEvent()
+    }
+}
 export default Modal
+export { ModalContent }

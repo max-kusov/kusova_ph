@@ -299,18 +299,18 @@ class Menu {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "ModalContent": () => (/* binding */ ModalContent)
 /* harmony export */ });
 
 
 class Modal {
     constructor(options = {}) {
-        this._init(options)
+        this.options = options
+
+        this._init()
     }
     _getModal() {
-        // let people = this.options.catalogs.anna.map(item => {
-        //     return `<img class="" src=${item} alt=""></img>`
-        // })
         return `
             <div class="modal__window">
                 <i class="fas fa-times modal__exit"></i>
@@ -325,42 +325,15 @@ class Modal {
         this.trigger = document.querySelectorAll(this.options.triggerElement)
         this.handlerImgClick = this.handlerImgClick.bind(this)
         this.trigger.forEach(elem => elem.addEventListener('click', this.handlerImgClick))
-
-        this.trigger.forEach(elem => elem.addEventListener('click', (e) => {
-            let gie = e.target.dataset['name']
-            console.log(this.options.catalogs)
-            for (let key in this.options.catalogs) {
-                if (key == gie) {
-                    // console.log(key)
-                    let a = this.options.catalogs[key].map(item => {
-                        return `<img class="" src=${item} alt=""></img>`
-                    })
-
-                    document.querySelector('.modal__content').innerHTML = a.join('')
-
-
-                }
-            }
-
-
-            // .map(item => {
-            //     return `<img class="" src=${item} alt=""></img>`
-            // })
-
-            // document.querySelector('.modal__content').innerHTML = ?????.join('')
-        }))
-
     }
 
     closeModal() {
         this.handlerExitClick = this.handlerExitClick.bind(this)
 
-        this.close = document.querySelector('.fa-times')
-        this.close.addEventListener('click', this.handlerExitClick)
+        this.BtnClose = document.querySelector('.fa-times')
+        this.BtnClose.addEventListener('click', this.handlerExitClick)
 
-        this.modalSelector.addEventListener('click', (e) => {
-            e.target === this.modalSelector && this.handlerExitClick()
-        })
+        this.modalSelector.addEventListener('click', e => e.target === this.modalSelector && this.handlerExitClick())
     }
 
     handlerImgClick() {
@@ -382,15 +355,42 @@ class Modal {
         this.openModal()
         this.closeModal()
     }
-    _init(options) {
-        this.options = options
-
+    _init() {
         this._render()
+        // this._renderContent()
         this._addEvent()
     }
 }
 
+class ModalContent {
+    constructor(modal, catalogs) {
+        this.modal = modal
+        this.catalogs = catalogs
+
+        this._init()
+    }
+    _render() {
+        this.modal.trigger = document.querySelectorAll(this.modal.options.triggerElement)
+        this.modal.trigger.forEach(elem => elem.addEventListener('click', (e) => {
+            let event = e.target.dataset['name']
+
+            for (let key in this.catalogs) {
+                if (key == event) {
+                    let a = this.catalogs[key].map(item => {
+                        return `<img class="" src=${item} alt=""></img>`
+                    })
+                    document.querySelector('.modal__content').innerHTML = a.join('')
+                }
+            }
+        }))
+    }
+    _init() {
+        this._render()
+        // this._addEvent()
+    }
+}
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Modal);
+
 
 /***/ })
 
@@ -461,6 +461,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/Menu/Menu */ "./modules/Menu/Menu.js");
 /* harmony import */ var _js_catalog_1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../js/catalog-1 */ "./js/catalog-1.js");
 
+
 // import Preloader from '../../modules/Preloader/Preloader'
 
 // import Slider from '../../modules/Slider/Slider'
@@ -478,8 +479,8 @@ const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__.default({
 const modal = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_0__.default({
     triggerElement: '.portfolio__img',
     catalogs: _js_catalog_1__WEBPACK_IMPORTED_MODULE_2__.catalogs,
-
 })
+const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_0__.ModalContent(modal, _js_catalog_1__WEBPACK_IMPORTED_MODULE_2__.catalogs)
 
 
 // const preloader = new Preloader(3000)

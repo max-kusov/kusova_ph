@@ -1,4 +1,5 @@
 import Modal from '../../modules/Modal/Modal'
+import { ModalContent } from '../../modules/Modal/Modal'
 // import Preloader from '../../modules/Preloader/Preloader'
 import Menu from '../../modules/Menu/Menu'
 // import Slider from '../../modules/Slider/Slider'
@@ -16,8 +17,8 @@ const menu = new Menu({
 const modal = new Modal({
     triggerElement: '.portfolio__img',
     catalogs,
-
 })
+const modalContent = new ModalContent(modal, catalogs)
 
 
 // const preloader = new Preloader(3000)
