@@ -313,8 +313,10 @@ const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__.default({
     ],
 })
 
+const json = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module 'json-loader!./js/catalog.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
 const modal = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.default('.portfolio__img')
-const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, './js/catalog.json')
+const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, json)
 
 
 })();

@@ -15,6 +15,8 @@ const menu = new Menu({
     ],
 })
 
+const json = require('json-loader!./js/catalog.json');
+
 const modal = new Modal('.portfolio__img')
-const modalContent = new ModalContent(modal, './js/catalog.json')
+const modalContent = new ModalContent(modal, json)
 
