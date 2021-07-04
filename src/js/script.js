@@ -3,7 +3,6 @@ import { ModalContent } from '../../modules/Modal/Modal'
 // import Preloader from '../../modules/Preloader/Preloader'
 import Menu from '../../modules/Menu/Menu'
 // import Slider from '../../modules/Slider/Slider'
-import { catalogs } from '../../js/catalog-1'
 
 const menu = new Menu({
     logo: { href: "./index.html", text: "Anzhelika Kusova" },
@@ -14,11 +13,8 @@ const menu = new Menu({
     ],
 })
 //'.portfolio__img'
-const modal = new Modal({
-    triggerElement: '.portfolio__img',
-    catalogs,
-})
-const modalContent = new ModalContent(modal, catalogs)
+const modal = new Modal('.portfolio__img')
+const modalContent = new ModalContent(modal, '/js/catalog.json')
 
 
 // const preloader = new Preloader(3000)

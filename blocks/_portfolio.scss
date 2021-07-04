@@ -149,7 +149,7 @@
     .angelinaikirill {
         background-image: url(../img/portfolio/angelinaikirill/angelinaikirill_15.jpg);
     }
-    &__img p {
+    &__img span {
         height: 350px;
         opacity: 0;
         font-family: 'Montserrat', sans-serif;
@@ -163,7 +163,7 @@
         justify-content: center;
         clip-path: circle(0.4% at 50% 50%);
     }
-    &__img:hover p {
+    &__img:hover span {
         opacity: .7;
         background: rgba(0, 0, 0, .6);
         cursor: pointer;

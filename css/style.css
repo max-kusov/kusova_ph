@@ -349,7 +349,7 @@ a:focus {
   background-image: url(../img/portfolio/angelinaikirill/angelinaikirill_15.jpg);
 }
 
-.portfolio__img p {
+.portfolio__img span {
   height: 350px;
   opacity: 0;
   font-family: 'Montserrat', sans-serif;
@@ -372,7 +372,7 @@ a:focus {
           clip-path: circle(0.4% at 50% 50%);
 }
 
-.portfolio__img:hover p {
+.portfolio__img:hover span {
   opacity: .7;
   background: rgba(0, 0, 0, 0.6);
   cursor: pointer;

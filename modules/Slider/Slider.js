@@ -71,8 +71,10 @@ class Slider {
         this._changeImage(0)
         this._addEvents()
         this._changeImageAtInterval()
+
     }
 
 }
 
 export default Slider
+

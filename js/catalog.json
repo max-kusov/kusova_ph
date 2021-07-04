@@ -1,5 +1,5 @@
-let catalogs = {
-    anna: [
+{
+    "anna": [
         "img/portfolio/anna/anna_1.jpg",
         "img/portfolio/anna/anna_2.jpg",
         "img/portfolio/anna/anna_3.jpg",
@@ -17,7 +17,7 @@ let catalogs = {
         "img/portfolio/anna/anna_15.jpg",
         "img/portfolio/anna/anna_16.jpg"
     ],
-    tatana: [
+    "tatana": [
         "img/portfolio/tatana/tatana_1.jpg",
         "img/portfolio/tatana/tatana_2.jpg",
         "img/portfolio/tatana/tatana_3.jpg",
@@ -36,7 +36,7 @@ let catalogs = {
         "img/portfolio/tatana/tatana_16.jpg",
         "img/portfolio/tatana/tatana_17.jpg"
     ],
-    alena: [
+    "alena": [
         "img/portfolio/alena/alena_1.jpg",
         "img/portfolio/alena/alena_2.jpg",
         "img/portfolio/alena/alena_3.jpg",
@@ -54,7 +54,7 @@ let catalogs = {
         "img/portfolio/alena/alena_15.jpg",
         "img/portfolio/alena/alena_16.jpg"
     ],
-    oksana: [
+    "oksana": [
         "img/portfolio/oksana/oksana_1.jpg",
         "img/portfolio/oksana/oksana_2.jpg",
         "img/portfolio/oksana/oksana_3.jpg",
@@ -68,7 +68,7 @@ let catalogs = {
         "img/portfolio/oksana/oksana_11.jpg",
         "img/portfolio/oksana/oksana_12.jpg"
     ],
-    anastasia: [
+    "anastasia": [
         "img/portfolio/anastasia/anastasia_1.jpg",
         "img/portfolio/anastasia/anastasia_2.jpg",
         "img/portfolio/anastasia/anastasia_3.jpg",
@@ -86,7 +86,7 @@ let catalogs = {
         "img/portfolio/anastasia/anastasia_15.jpg",
         "img/portfolio/anastasia/anastasia_16.jpg"
     ],
-    nastia: [
+    "nastia": [
         "img/portfolio/nastia/nastia_1.jpg",
         "img/portfolio/nastia/nastia_2.jpg",
         "img/portfolio/nastia/nastia_3.jpg",
@@ -104,7 +104,7 @@ let catalogs = {
         "img/portfolio/nastia/nastia_15.jpg",
         "img/portfolio/nastia/nastia_16.jpg"
     ],
-    sveta: [
+    "sveta": [
         "img/portfolio/sveta/sveta_1.jpg",
         "img/portfolio/sveta/sveta_2.jpg",
         "img/portfolio/sveta/sveta_3.jpg",
@@ -118,7 +118,7 @@ let catalogs = {
         "img/portfolio/sveta/sveta_11.jpg",
         "img/portfolio/sveta/sveta_12.jpg"
     ],
-    regina: [
+    "regina": [
         "img/portfolio/regina/regina_1.jpg",
         "img/portfolio/regina/regina_2.jpg",
         "img/portfolio/regina/regina_3.jpg",
@@ -134,7 +134,7 @@ let catalogs = {
         "img/portfolio/regina/regina_13.jpg",
         "img/portfolio/regina/regina_14.jpg"
     ],
-    ela: [
+    "ela": [
         "img/portfolio/ela/ela_1.jpg",
         "img/portfolio/ela/ela_2.jpg",
         "img/portfolio/ela/ela_3.jpg",
@@ -150,7 +150,7 @@ let catalogs = {
         "img/portfolio/ela/ela_13.jpg",
         "img/portfolio/ela/ela_14.jpg"
     ],
-    lera: [
+    "lera": [
         "img/portfolio/lera/lera_1.jpg",
         "img/portfolio/lera/lera_2.jpg",
         "img/portfolio/lera/lera_3.jpg",
@@ -158,9 +158,9 @@ let catalogs = {
         "img/portfolio/lera/lera_5.jpg",
         "img/portfolio/lera/lera_6.jpg",
         "img/portfolio/lera/lera_7.jpg",
-        "img/portfolio/lera/lera_8.jpg",
+        "img/portfolio/lera/lera_8.jpg"
     ],
-    maria: [
+    "maria": [
         "img/portfolio/maria/maria_1.jpg",
         "img/portfolio/maria/maria_2.jpg",
         "img/portfolio/maria/maria_3.jpg",
@@ -174,7 +174,7 @@ let catalogs = {
         "img/portfolio/maria/maria_11.jpg",
         "img/portfolio/maria/maria_12.jpg"
     ],
-    angelinaikirill: [
+    "angelinaikirill": [
         "img/portfolio/angelinaikirill/angelinaikirill_1.jpg",
         "img/portfolio/angelinaikirill/angelinaikirill_2.jpg",
         "img/portfolio/angelinaikirill/angelinaikirill_3.jpg",
@@ -193,7 +193,5 @@ let catalogs = {
         "img/portfolio/angelinaikirill/angelinaikirill_16.jpg",
         "img/portfolio/angelinaikirill/angelinaikirill_17.jpg",
         "img/portfolio/angelinaikirill/angelinaikirill_18.jpg"
-    ],
+    ]
 }
-
-export { catalogs }

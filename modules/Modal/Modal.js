@@ -1,8 +1,8 @@
 'use strict'
 
 class Modal {
-    constructor(options = {}) {
-        this.options = options
+    constructor(triggerElement) {
+        this.triggerElement = triggerElement
 
         this._init()
     }
@@ -18,7 +18,7 @@ class Modal {
     }
 
     openModal() {
-        this.trigger = document.querySelectorAll(this.options.triggerElement)
+        this.trigger = document.querySelectorAll(this.triggerElement)
         this.handlerImgClick = this.handlerImgClick.bind(this)
         this.trigger.forEach(elem => elem.addEventListener('click', this.handlerImgClick))
     }
@@ -47,43 +47,48 @@ class Modal {
         this.modalSelector.innerHTML = this._getModal()
     }
     _addEvent() {
-        this.trigger = this.options.triggerElement
+        this._render()
+        this.trigger = this.triggerElement
         this.openModal()
         this.closeModal()
     }
     _init() {
-        this._render()
-        // this._renderContent()
         this._addEvent()
     }
 }
 
 class ModalContent {
-    constructor(modal, catalogs) {
+    constructor(modal, url) {
         this.modal = modal
-        this.catalogs = catalogs
+        this.url = url
 
         this._init()
     }
-    _render() {
-        this.modal.trigger = document.querySelectorAll(this.modal.options.triggerElement)
-        this.modal.trigger.forEach(elem => elem.addEventListener('click', (e) => {
-            let event = e.target.dataset['name']
+    _addEvent() {
+        this.modal.trigger = document.querySelectorAll(this.modal.triggerElement)
+        this.modal.trigger.forEach(elem => elem.addEventListener('click', (e) => this._handlerImgClick(e)))
+    }
+    async _handlerImgClick(e) {
+        this.content = await fetch(this.url)
+        this.contentJson = await this.content.json()
 
-            for (let key in this.catalogs) {
-                if (key == event) {
-                    let a = this.catalogs[key].map(item => {
-                        return `<img class="" src=${item} alt=""></img>`
-                    })
-                    document.querySelector('.modal__content').innerHTML = a.join('')
-                }
-            }
-        }))
+        for (let key in this.contentJson) {
+            (key === e.target.dataset['name']) && this._renderContent(key)
+        }
+    }
+
+    _renderContent(key) {
+        this.content = this.contentJson[key].map(item => `<img class="" src=${item} alt=""></img>`)
+        document.querySelector('.modal__content').innerHTML = this.content.join('')
     }
     _init() {
-        this._render()
-        // this._addEvent()
+        this._addEvent()
     }
+
 }
+
+
+
 export default Modal
 export { ModalContent }
+
