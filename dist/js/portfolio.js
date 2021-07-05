@@ -316,7 +316,7 @@ const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__.default({
 });
 
 const modal = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.default('.portfolio__img')
-const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, '../js/catalog.json')
+const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, './catalog.json')
 
 
 })();
