@@ -2,16 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/catalog.json":
-/*!*************************!*\
-  !*** ./js/catalog.json ***!
-  \*************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"anna":["img/portfolio/anna/anna_1.jpg","img/portfolio/anna/anna_2.jpg","img/portfolio/anna/anna_3.jpg","img/portfolio/anna/anna_4.jpg","img/portfolio/anna/anna_5.jpg","img/portfolio/anna/anna_6.jpg","img/portfolio/anna/anna_7.jpg","img/portfolio/anna/anna_8.jpg","img/portfolio/anna/anna_9.jpg","img/portfolio/anna/anna_10.jpg","img/portfolio/anna/anna_11.jpg","img/portfolio/anna/anna_12.jpg","img/portfolio/anna/anna_13.jpg","img/portfolio/anna/anna_14.jpg","img/portfolio/anna/anna_15.jpg","img/portfolio/anna/anna_16.jpg"],"tatana":["img/portfolio/tatana/tatana_1.jpg","img/portfolio/tatana/tatana_2.jpg","img/portfolio/tatana/tatana_3.jpg","img/portfolio/tatana/tatana_4.jpg","img/portfolio/tatana/tatana_5.jpg","img/portfolio/tatana/tatana_6.jpg","img/portfolio/tatana/tatana_7.jpg","img/portfolio/tatana/tatana_8.jpg","img/portfolio/tatana/tatana_9.jpg","img/portfolio/tatana/tatana_10.jpg","img/portfolio/tatana/tatana_11.jpg","img/portfolio/tatana/tatana_12.jpg","img/portfolio/tatana/tatana_13.jpg","img/portfolio/tatana/tatana_14.jpg","img/portfolio/tatana/tatana_15.jpg","img/portfolio/tatana/tatana_16.jpg","img/portfolio/tatana/tatana_17.jpg"],"alena":["img/portfolio/alena/alena_1.jpg","img/portfolio/alena/alena_2.jpg","img/portfolio/alena/alena_3.jpg","img/portfolio/alena/alena_4.jpg","img/portfolio/alena/alena_5.jpg","img/portfolio/alena/alena_6.jpg","img/portfolio/alena/alena_7.jpg","img/portfolio/alena/alena_8.jpg","img/portfolio/alena/alena_9.jpg","img/portfolio/alena/alena_10.jpg","img/portfolio/alena/alena_11.jpg","img/portfolio/alena/alena_12.jpg","img/portfolio/alena/alena_13.jpg","img/portfolio/alena/alena_14.jpg","img/portfolio/alena/alena_15.jpg","img/portfolio/alena/alena_16.jpg"],"oksana":["img/portfolio/oksana/oksana_1.jpg","img/portfolio/oksana/oksana_2.jpg","img/portfolio/oksana/oksana_3.jpg","img/portfolio/oksana/oksana_4.jpg","img/portfolio/oksana/oksana_5.jpg","img/portfolio/oksana/oksana_6.jpg","img/portfolio/oksana/oksana_7.jpg","img/portfolio/oksana/oksana_8.jpg","img/portfolio/oksana/oksana_9.jpg","img/portfolio/oksana/oksana_10.jpg","img/portfolio/oksana/oksana_11.jpg","img/portfolio/oksana/oksana_12.jpg"],"anastasia":["img/portfolio/anastasia/anastasia_1.jpg","img/portfolio/anastasia/anastasia_2.jpg","img/portfolio/anastasia/anastasia_3.jpg","img/portfolio/anastasia/anastasia_4.jpg","img/portfolio/anastasia/anastasia_5.jpg","img/portfolio/anastasia/anastasia_6.jpg","img/portfolio/anastasia/anastasia_7.jpg","img/portfolio/anastasia/anastasia_8.jpg","img/portfolio/anastasia/anastasia_9.jpg","img/portfolio/anastasia/anastasia_10.jpg","img/portfolio/anastasia/anastasia_11.jpg","img/portfolio/anastasia/anastasia_12.jpg","img/portfolio/anastasia/anastasia_13.jpg","img/portfolio/anastasia/anastasia_14.jpg","img/portfolio/anastasia/anastasia_15.jpg","img/portfolio/anastasia/anastasia_16.jpg"],"nastia":["img/portfolio/nastia/nastia_1.jpg","img/portfolio/nastia/nastia_2.jpg","img/portfolio/nastia/nastia_3.jpg","img/portfolio/nastia/nastia_4.jpg","img/portfolio/nastia/nastia_5.jpg","img/portfolio/nastia/nastia_6.jpg","img/portfolio/nastia/nastia_7.jpg","img/portfolio/nastia/nastia_8.jpg","img/portfolio/nastia/nastia_9.jpg","img/portfolio/nastia/nastia_10.jpg","img/portfolio/nastia/nastia_11.jpg","img/portfolio/nastia/nastia_12.jpg","img/portfolio/nastia/nastia_13.jpg","img/portfolio/nastia/nastia_14.jpg","img/portfolio/nastia/nastia_15.jpg","img/portfolio/nastia/nastia_16.jpg"],"sveta":["img/portfolio/sveta/sveta_1.jpg","img/portfolio/sveta/sveta_2.jpg","img/portfolio/sveta/sveta_3.jpg","img/portfolio/sveta/sveta_4.jpg","img/portfolio/sveta/sveta_5.jpg","img/portfolio/sveta/sveta_6.jpg","img/portfolio/sveta/sveta_7.jpg","img/portfolio/sveta/sveta_8.jpg","img/portfolio/sveta/sveta_9.jpg","img/portfolio/sveta/sveta_10.jpg","img/portfolio/sveta/sveta_11.jpg","img/portfolio/sveta/sveta_12.jpg"],"regina":["img/portfolio/regina/regina_1.jpg","img/portfolio/regina/regina_2.jpg","img/portfolio/regina/regina_3.jpg","img/portfolio/regina/regina_4.jpg","img/portfolio/regina/regina_5.jpg","img/portfolio/regina/regina_6.jpg","img/portfolio/regina/regina_7.jpg","img/portfolio/regina/regina_8.jpg","img/portfolio/regina/regina_9.jpg","img/portfolio/regina/regina_10.jpg","img/portfolio/regina/regina_11.jpg","img/portfolio/regina/regina_12.jpg","img/portfolio/regina/regina_13.jpg","img/portfolio/regina/regina_14.jpg"],"ela":["img/portfolio/ela/ela_1.jpg","img/portfolio/ela/ela_2.jpg","img/portfolio/ela/ela_3.jpg","img/portfolio/ela/ela_4.jpg","img/portfolio/ela/ela_5.jpg","img/portfolio/ela/ela_6.jpg","img/portfolio/ela/ela_7.jpg","img/portfolio/ela/ela_8.jpg","img/portfolio/ela/ela_9.jpg","img/portfolio/ela/ela_10.jpg","img/portfolio/ela/ela_11.jpg","img/portfolio/ela/ela_12.jpg","img/portfolio/ela/ela_13.jpg","img/portfolio/ela/ela_14.jpg"],"lera":["img/portfolio/lera/lera_1.jpg","img/portfolio/lera/lera_2.jpg","img/portfolio/lera/lera_3.jpg","img/portfolio/lera/lera_4.jpg","img/portfolio/lera/lera_5.jpg","img/portfolio/lera/lera_6.jpg","img/portfolio/lera/lera_7.jpg","img/portfolio/lera/lera_8.jpg"],"maria":["img/portfolio/maria/maria_1.jpg","img/portfolio/maria/maria_2.jpg","img/portfolio/maria/maria_3.jpg","img/portfolio/maria/maria_4.jpg","img/portfolio/maria/maria_5.jpg","img/portfolio/maria/maria_6.jpg","img/portfolio/maria/maria_7.jpg","img/portfolio/maria/maria_8.jpg","img/portfolio/maria/maria_9.jpg","img/portfolio/maria/maria_10.jpg","img/portfolio/maria/maria_11.jpg","img/portfolio/maria/maria_12.jpg"],"angelinaikirill":["img/portfolio/angelinaikirill/angelinaikirill_1.jpg","img/portfolio/angelinaikirill/angelinaikirill_2.jpg","img/portfolio/angelinaikirill/angelinaikirill_3.jpg","img/portfolio/angelinaikirill/angelinaikirill_4.jpg","img/portfolio/angelinaikirill/angelinaikirill_5.jpg","img/portfolio/angelinaikirill/angelinaikirill_6.jpg","img/portfolio/angelinaikirill/angelinaikirill_7.jpg","img/portfolio/angelinaikirill/angelinaikirill_8.jpg","img/portfolio/angelinaikirill/angelinaikirill_9.jpg","img/portfolio/angelinaikirill/angelinaikirill_10.jpg","img/portfolio/angelinaikirill/angelinaikirill_11.jpg","img/portfolio/angelinaikirill/angelinaikirill_12.jpg","img/portfolio/angelinaikirill/angelinaikirill_13.jpg","img/portfolio/angelinaikirill/angelinaikirill_14.jpg","img/portfolio/angelinaikirill/angelinaikirill_15.jpg","img/portfolio/angelinaikirill/angelinaikirill_16.jpg","img/portfolio/angelinaikirill/angelinaikirill_17.jpg","img/portfolio/angelinaikirill/angelinaikirill_18.jpg"]}');
-
-/***/ }),
-
 /***/ "./modules/Menu/Menu.js":
 /*!******************************!*\
   !*** ./modules/Menu/Menu.js ***!
@@ -306,11 +296,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../modules/Preloader/Preloader */ "./modules/Preloader/Preloader.js");
 /* harmony import */ var _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/Menu/Menu */ "./modules/Menu/Menu.js");
 /* harmony import */ var _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../modules/Modal/Modal */ "./modules/Modal/Modal.js");
-/* harmony import */ var _js_catalog_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../js/catalog.json */ "./js/catalog.json");
 
 
 
 
+// import json from '../../js/catalog.json'
 
 
 const preloader = new _modules_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_0__.default(3000)
@@ -323,10 +313,10 @@ const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__.default({
         { href: "./price.html", text: "Прайс" },
         { href: "./contacts.html", text: "Контакты" },
     ],
-})
+});
 
 const modal = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.default('.portfolio__img')
-const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, _js_catalog_json__WEBPACK_IMPORTED_MODULE_3__)
+const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, '/js/catalog.json')
 
 
 })();

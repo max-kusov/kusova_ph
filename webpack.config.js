@@ -20,7 +20,13 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.scss']
   },
-
   module: {
-  }
+    rules: [
+      {
+        test: /\.json$/,
+        exclude: /node_modules/,
+      }
+    ]
+  },
+
 };
