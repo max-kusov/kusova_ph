@@ -2,6 +2,7 @@ import Preloader from '../../modules/Preloader/Preloader'
 import Menu from '../../modules/Menu/Menu'
 import Modal from '../../modules/Modal/Modal'
 import { ModalContent } from '../../modules/Modal/Modal'
+import json from '../js/catalog.json'
 
 const preloader = new Preloader(3000)
 window.onload = preloader
@@ -14,8 +15,6 @@ const menu = new Menu({
         { href: "./contacts.html", text: "Контакты" },
     ],
 })
-
-const json = require('json-loader!./js/catalog.json');
 
 const modal = new Modal('.portfolio__img')
 const modalContent = new ModalContent(modal, json)

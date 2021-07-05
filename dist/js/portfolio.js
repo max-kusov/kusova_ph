@@ -296,6 +296,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../modules/Preloader/Preloader */ "./modules/Preloader/Preloader.js");
 /* harmony import */ var _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/Menu/Menu */ "./modules/Menu/Menu.js");
 /* harmony import */ var _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../modules/Modal/Modal */ "./modules/Modal/Modal.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '../js/catalog.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
 
 
 
@@ -313,10 +315,8 @@ const menu = new _modules_Menu_Menu__WEBPACK_IMPORTED_MODULE_1__.default({
     ],
 })
 
-const json = __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module 'json-loader!./js/catalog.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
 const modal = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.default('.portfolio__img')
-const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, json)
+const modalContent = new _modules_Modal_Modal__WEBPACK_IMPORTED_MODULE_2__.ModalContent(modal, Object(function webpackMissingModule() { var e = new Error("Cannot find module '../js/catalog.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
 
 
 })();
