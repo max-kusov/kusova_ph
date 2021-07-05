@@ -69,7 +69,7 @@ class ModalContent {
         this.modal.trigger.forEach(elem => elem.addEventListener('click', (e) => this._handlerImgClick(e)))
     }
     async _handlerImgClick(e) {
-        this.content = await fetch('./catalog.json')
+        this.content = await fetch(this.url)
         this.contentJson = await this.content.json()
 
         for (let key in this.contentJson) {
